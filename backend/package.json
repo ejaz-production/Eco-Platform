@@ -1,0 +1,23 @@
+{
+  "name": "@saya/backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node --env-file=.env src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/server": "^1.7.0",
+    "@supabase/supabase-js": "^2.57.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "file-type": "^22.1.1",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^8.1.0",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.4",
+    "zod": "^4.1.0"
+  }
+}
