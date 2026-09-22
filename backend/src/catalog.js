@@ -1,3 +1,4 @@
+import collectionDefinitions from "../../shared/category-banners.json" with { type: "json" };
 // Catalog seeded from Tek Lek (https://teklek.com/) — demo inventory. Verify stock before launch.
 export const products = [
   {
@@ -3130,48 +3131,11 @@ export const products = [
     "description": "Apna Cinema Kahin Bhi Le Jayein! Kya aap apne smartphone ya laptop ki choti screen se pareshan hain? Ab waqt hai bade parde ka! Ye Compact & Portable Mini Projector aapke kamre ko ek shandaar home theater mein badal dega. Key Features: Pocket-Sized Portability: Iska size itna chota hai ke ye aapki hatheli (palm) par aa jata hai. Aap isse asani se bag mein rakh kar safar, camping, ya doston ke ghar le ja sakte hain. Big Screen Experience: Chote size ke bawajood, ye aapko ek badi aur saaf screen ka maza deta hai. Movie nights aur gaming ke liye best hai. Multi-Device Connectivity: Ismein HDMI, USB, aur AV ports hain. Aap isse Laptop, Gaming Console (PS5/Xbox), TV Stick, ya USB drive ke sath asani se connect kar sakte hain. Built-in Speaker: Alag se speaker lagane ki zaroorat nahi, ismein apna damdaar sound system maujood hai. Eye Protection: Iski LED light technology aapki aankhon par bojh nahi dalti, jo bacho ke liye cartoons dekhne ka ek safe zariya hai. Feature Details Color Classic Yellow & White Combo Input Ports HDMI, USB, AV, Micro SD Power Source Power Adapter (Included) / Power Bank Support Included in Box Projector, Remote Control, AV Cable, Power Adapter, User Manual"
   }
 ];
-const promotions = [
-  {
-    eyebrow: "SMARTWATCHES",
-    title: "Time on\nyour wrist.",
-    description: "Calling, health tracking and everyday style from our watch collection.",
-    image: "/images/hero-smartwatch.png",
-    href: "/shop?category=Smartwatches",
-    cta: "Shop watches",
-  },
-  {
-    eyebrow: "KIDS COLLECTION",
-    title: "Play harder.\nSmile bigger.",
-    description: "RC cars, jets, drones and toys kids actually ask for.",
-    image: "/images/toys.png",
-    href: "/shop?category=Toys",
-    cta: "Shop toys",
-  },
-  {
-    eyebrow: "SPEAKERS & AUDIO",
-    title: "Sound on.\nWorld off.",
-    description: "Portable speakers and wireless audio for every day.",
-    image: "/images/hero-audio.png",
-    href: "/shop?category=Audio",
-    cta: "Shop audio",
-  },
-  {
-    eyebrow: "POWER SOLUTIONS",
-    title: "Stay charged.\nGo further.",
-    description: "Power banks and charging essentials for phones on the move.",
-    image: "/images/hero-power.png",
-    href: "/shop?category=Power%20Solutions",
-    cta: "Shop power",
-  },
-  {
-    eyebrow: "VLOGGING SETUP",
-    title: "Create more.\nShoot better.",
-    description: "Ring lights, mics and mounts for your next content day.",
-    image: "/images/hero-vlogging.png",
-    href: "/shop?category=Vlogging%20Setup",
-    cta: "Shop vlogging",
-  },
-];
+const promotions = collectionDefinitions.map(({ category, image, eyebrow, title, description, cta }) => ({
+  eyebrow, title, description, cta,
+  image,
+  href: `/shop?category=${encodeURIComponent(category)}`,
+}));
 export const initialBanners = [
   ...["desktop", "mobile"].flatMap((target) =>
     promotions.map((p, i) => ({

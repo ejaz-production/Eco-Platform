@@ -1,7 +1,50 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { productSchema, bannersSchema } from "../src/content.js";
+import { initialBanners, products } from "../src/catalog.js";
+import collections from "../../shared/category-banners.json" with { type: "json" };
 const image = "photo-1546435770-a3e426bf472b";
+test("every catalog category has desktop and mobile banners that admins can save", () => {
+  assert.equal(bannersSchema.safeParse(initialBanners).success, true);
+  for (const category of new Set(products.map((p) => p.category))) {
+    const collection = collections.find((c) => c.category === category);
+    assert.ok(collection, category);
+    for (const target of ["desktop", "mobile"])
+      assert.ok(
+        initialBanners.some(
+          (b) =>
+            b.target === target &&
+            b.image === collection.image &&
+            b.placement === "main",
+        ),
+        `${category} ${target}`,
+      );
+  }
+});
+test("Cloudinary images are restricted to this store's account and media paths", () => {
+  const valid = collections[0].image;
+  assert.equal(
+    productSchema.safeParse({
+      ...product,
+      image: valid,
+      media: [{ type: "image", src: valid }],
+    }).success,
+    true,
+  );
+  for (const src of [
+    valid.replace("p76rvfxz", "another-cloud"),
+    valid.replace("res.cloudinary.com", "res.cloudinary.com.evil.test"),
+    "https://res.cloudinary.com/p76rvfxz/image/upload/../private.png",
+  ])
+    assert.equal(
+      productSchema.safeParse({
+        ...product,
+        image: src,
+        media: [{ type: "image", src }],
+      }).success,
+      false,
+    );
+});
 const product = {
   name: "Sample toy",
   category: "Toys",

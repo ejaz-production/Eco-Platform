@@ -1,8 +1,9 @@
 import multer from "multer";
 import sharp from "sharp";
-sharp.cache({files:0});
+sharp.cache({ files: 0 });
 import { fileTypeFromFile } from "file-type";
-import { mkdir, unlink, rename } from "node:fs/promises";
+import { mkdir, unlink, rename, readFile } from "node:fs/promises";
+import { uploadToCloudinary } from "./cloudinary.js";
 import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
 export const mediaDirectory = fileURLToPath(
@@ -32,7 +33,7 @@ export async function saveUpload(req, res) {
         throw Error("Images must be under 10 MB.");
       name = id + ".webp";
       type = "image";
-      await sharp(file.path, { limitInputPixels: 40000000 })
+      const optimized = sharp(file.path, { limitInputPixels: 40000000 })
         .rotate()
         .resize({
           width: 1920,
@@ -40,11 +41,28 @@ export async function saveUpload(req, res) {
           fit: "inside",
           withoutEnlargement: true,
         })
-        .webp({ quality: 82 })
-        .toFile(mediaDirectory + "/" + name);
+        .webp({ quality: 82 });
+      if (process.env.CLOUDINARY_URL) {
+        const result = await uploadToCloudinary(await optimized.toBuffer(), {
+          publicId: `nayvilo/uploads/${id}`,
+          filename: name,
+          mime: "image/webp",
+        });
+        return res.status(201).json({ type, src: result.secure_url, alt: "" });
+      }
+      await optimized.toFile(mediaDirectory + "/" + name);
     } else if (["video/mp4", "video/webm"].includes(detected?.mime)) {
       name = id + "." + detected.ext;
       type = "video";
+      if (process.env.CLOUDINARY_URL) {
+        const result = await uploadToCloudinary(await readFile(file.path), {
+          publicId: `nayvilo/uploads/${id}`,
+          type,
+          filename: name,
+          mime: detected.mime,
+        });
+        return res.status(201).json({ type, src: result.secure_url, alt: "" });
+      }
       await rename(file.path, mediaDirectory + "/" + name);
     } else throw Error("Use JPG, PNG, WebP, AVIF, MP4 or WebM files.");
     res.status(201).json({ type, src: "/api/media/" + name, alt: "" });

@@ -3,7 +3,7 @@ export const imageSource = z
   .string()
   .max(300)
   .regex(
-    /^(photo-[a-zA-Z0-9-]+|\/images\/(hero|product)-[a-z0-9-]+\.png|\/images\/toys\.png|\/api\/media\/[a-f0-9-]+\.webp)$/,
+    /^(photo-[a-zA-Z0-9-]+|\/images\/(hero|product)-[a-z0-9-]+\.png|\/images\/toys\.png|\/api\/media\/[a-f0-9-]+\.webp|https:\/\/res\.cloudinary\.com\/p76rvfxz\/image\/upload\/v[0-9]+\/nayvilo\/[a-zA-Z0-9/_-]+\.(png|webp|jpg|avif))$/,
     "Upload an image or use an Unsplash photo ID",
   );
 export const mediaSchema = z.discriminatedUnion("type", [
@@ -14,7 +14,11 @@ export const mediaSchema = z.discriminatedUnion("type", [
   }),
   z.object({
     type: z.literal("video"),
-    src: z.string().regex(/^\/api\/media\/[a-f0-9-]+\.(mp4|webm)$/),
+    src: z
+      .string()
+      .regex(
+        /^(\/api\/media\/[a-f0-9-]+\.(mp4|webm)|https:\/\/res\.cloudinary\.com\/p76rvfxz\/video\/upload\/v[0-9]+\/nayvilo\/[a-zA-Z0-9/_-]+\.(mp4|webm))$/,
+      ),
     alt: z.string().max(150).default(""),
   }),
 ]);
@@ -72,7 +76,7 @@ export const bannersSchema = z
       active: z.boolean(),
     }),
   )
-  .max(12)
+  .max(30)
   .refine(
     (bs) => new Set(bs.map((b) => b.id)).size === bs.length,
     "Duplicate banner IDs",

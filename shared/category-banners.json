@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Smartwatches",
+    "slug": "smartwatches",
+    "eyebrow": "SMARTWATCHES",
+    "title": "Your time.\nYour style.",
+    "description": "Square faces, classic rounds and straps for every kind of day.",
+    "cta": "Shop watches",
+    "alt": "Orange sport smartwatch, round black watch, rose gold watch and spare straps",
+    "color": "#eef1f4",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077483/nayvilo/category-banners/2026-09-22/smartwatches.png"
+  },
+  {
+    "category": "Toys",
+    "slug": "toys",
+    "eyebrow": "BIG LITTLE ADVENTURES",
+    "title": "Less scrolling.\nMore playing.",
+    "description": "RC jets, racing cars, mighty tractors and colourful building blocks.",
+    "cta": "Discover toys",
+    "alt": "Blue toy jet drone, red racing car and controller, toy tractor and magnetic blocks",
+    "color": "#fff1e4",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077486/nayvilo/category-banners/2026-09-22/toys.png"
+  },
+  {
+    "category": "Audio",
+    "slug": "audio",
+    "eyebrow": "SOUND GOOD. FEEL GOOD.",
+    "title": "Press play.\nFind your rhythm.",
+    "description": "Headphones, earbuds, soundbars and karaoke favourites in one place.",
+    "cta": "Explore audio",
+    "alt": "Wireless headphones, earbuds, karaoke speaker with microphone and RGB soundbar",
+    "color": "#eeebf8",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077490/nayvilo/category-banners/2026-09-22/audio.png"
+  },
+  {
+    "category": "Mobile Accessories",
+    "slug": "mobile-accessories",
+    "eyebrow": "THE EVERYDAY EXTRAS",
+    "title": "Small extras.\nBetter days.",
+    "description": "Charging stands, cables, adapters and cooling for your daily companion.",
+    "cta": "Shop accessories",
+    "alt": "Wireless charging stand, phone stand, braided cable, wall adapter and phone cooler",
+    "color": "#eaf2f4",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077492/nayvilo/category-banners/2026-09-22/mobile-accessories.png"
+  },
+  {
+    "category": "Car Accessories",
+    "slug": "car-accessories",
+    "eyebrow": "READY FOR THE ROAD",
+    "title": "Make every\njourney yours.",
+    "description": "Explore wireless charging holders and colourful LED pixel panels.",
+    "cta": "Shop car accessories",
+    "alt": "Automatic clamping wireless car charger mount and RGB LED pixel panel",
+    "color": "#e8eef1",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077494/nayvilo/category-banners/2026-09-22/car-accessories.png"
+  },
+  {
+    "category": "Power Solutions",
+    "slug": "power-solutions",
+    "eyebrow": "ENERGY TO GO",
+    "title": "More life.\nLess low battery.",
+    "description": "Pocket power banks, magnetic chargers and compact charging essentials.",
+    "cta": "Find your power",
+    "alt": "Slim power bank, magnetic power bank, capsule charger and folding wireless pad",
+    "color": "#eaf2e9",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077501/nayvilo/category-banners/2026-09-22/power-solutions.png"
+  },
+  {
+    "category": "Home Decor",
+    "slug": "home-decor",
+    "eyebrow": "SET A DIFFERENT MOOD",
+    "title": "Your space.\nA little brighter.",
+    "description": "Galaxy projectors, ripple lamps and colourful lights for your favourite corner.",
+    "cta": "Light up your space",
+    "alt": "Galaxy projector, crystal water ripple lamp, neon rope light and LED display",
+    "color": "#f2eaf5",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077513/nayvilo/category-banners/2026-09-22/home-decor.png"
+  },
+  {
+    "category": "Vlogging Setup",
+    "slug": "vlogging-setup",
+    "eyebrow": "YOUR NEXT GREAT TAKE",
+    "title": "Hit record.\nMake it yours.",
+    "description": "Ring lights, action cameras and wireless microphones for your next idea.",
+    "cta": "Explore creator gear",
+    "alt": "Ring light, action camera, wireless lavalier microphones and handheld microphone",
+    "color": "#f4ede4",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077518/nayvilo/category-banners/2026-09-22/vlogging-setup.png"
+  },
+  {
+    "category": "Mounts & Stands",
+    "slug": "mounts-stands",
+    "eyebrow": "FIND YOUR BEST ANGLE",
+    "title": "Set it up.\nKeep it steady.",
+    "description": "Tripods, tabletop brackets and bike holders that put your gear in place.",
+    "cta": "Shop mounts & stands",
+    "alt": "Phone tripod, tabletop lifting bracket, folded tripod and motorcycle phone mount",
+    "color": "#eaf0ed",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077524/nayvilo/category-banners/2026-09-22/mounts-stands.png"
+  },
+  {
+    "category": "PC & Laptop",
+    "slug": "pc-laptop",
+    "eyebrow": "A BETTER DESK DAY",
+    "title": "Work smarter.\nPlay better.",
+    "description": "Keyboards, gaming mice, USB hubs and cooling for your desktop setup.",
+    "cta": "Upgrade your setup",
+    "alt": "RGB keyboard, gaming mouse, laptop cooling pad and four port USB hub",
+    "color": "#e9edf7",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077527/nayvilo/category-banners/2026-09-22/pc-laptop.png"
+  },
+  {
+    "category": "POS Package",
+    "slug": "pos-package",
+    "eyebrow": "FOR YOUR NEXT SALE",
+    "title": "Small counter.\nBig possibilities.",
+    "description": "Portable thermal printing and paper refills for your business essentials.",
+    "cta": "Explore POS essentials",
+    "alt": "Portable thermal receipt printer with receipt and thermal paper rolls",
+    "color": "#edf1e5",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077531/nayvilo/category-banners/2026-09-22/pos-package.png"
+  },
+  {
+    "category": "Gadgets",
+    "slug": "gadgets",
+    "eyebrow": "CLEVER LITTLE FINDS",
+    "title": "Everyday life.\nA clever twist.",
+    "description": "Mini projectors, handheld fans, smart cameras and more useful discoveries.",
+    "cta": "Discover gadgets",
+    "alt": "Yellow and white mini projector, handheld fan, bulb security camera and moon crystal lamp",
+    "color": "#fff0e5",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790077535/nayvilo/category-banners/2026-09-22/gadgets.png"
+  }
+]

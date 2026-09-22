@@ -8,23 +8,11 @@ import {
   Truck,
   ShieldCheck,
   Headphones,
-  Watch,
-  Baby,
-  Cable,
-  Car,
-  BatteryCharging,
 } from "lucide-react";
 import { useState } from "react";
 import { ProductCard } from "./product-card";
-import { type Product, type Banner, photo } from "@/lib/data";
-const departments = [
-  { name: "Smartwatches", icon: Watch, detail: "Track your day" },
-  { name: "Toys", icon: Baby, detail: "Kids favourites" },
-  { name: "Audio", icon: Headphones, detail: "Speakers & more" },
-  { name: "Mobile Accessories", icon: Cable, detail: "Everyday essentials" },
-  { name: "Car Accessories", icon: Car, detail: "For the road" },
-  { name: "Power Solutions", icon: BatteryCharging, detail: "Stay charged" },
-];
+import { type Product, type Banner } from "@/lib/data";
+import { collections, collectionFor } from "@/lib/collections";
 export function Home({
   products,
   banners,
@@ -76,17 +64,28 @@ export function Home({
             Browse all <ChevronRight size={15} />
           </Link>
         </div>
-        <div className="department-grid">
-          {departments.map((c) => (
+        <div className="department-grid collection-grid">
+          {collections.map((c) => (
             <Link
-              href={"/shop?category=" + encodeURIComponent(c.name)}
-              key={c.name}
+              href={c.href}
+              key={c.category}
+              style={{ backgroundColor: c.color }}
             >
-              <span className="department-icon">
-                <c.icon size={29} strokeWidth={1.35} />
+              <span className="collection-thumbnail">
+                <Image
+                  src={c.image}
+                  alt={c.alt}
+                  fill
+                  sizes="(max-width:760px) 44vw, (max-width:1050px) 30vw, 22vw"
+                />
               </span>
-              <strong>{c.name}</strong>
-              <small>{c.detail}</small>
+              <strong>
+                {c.category} <ArrowRight size={14} />
+              </strong>
+              <small>
+                {products.filter((p) => p.category === c.category).length}{" "}
+                products to explore
+              </small>
             </Link>
           ))}
         </div>
@@ -131,15 +130,15 @@ export function Home({
               Better keys. Smoother moves. Discover the details that make your
               desk feel right.
             </p>
-            <Link className="button" href="/shop?category=Toys">
+            <Link className="button" href="/shop?category=PC%20%26%20Laptop">
               Build your setup <ArrowRight size={16} />
             </Link>
           </div>
           <div className="setup-photo">
             <Image
-              src={photo("photo-1587829741301-dc798b83add3", 1000)}
+              src={collectionFor("PC & Laptop")!.image}
               fill
-              alt="Mechanical keyboard for a focused desk setup"
+              alt={collectionFor("PC & Laptop")!.alt}
               sizes="(max-width:760px) 50vw,60vw"
             />
           </div>

@@ -73,6 +73,10 @@ Backend tests cover trusted catalog pricing, shipping thresholds, duplicate-line
 
 ## Assets
 
+Category banners now use twelve transparent PNG product collages hosted on Cloudinary. The homepage includes every catalog category, and filtered shop pages display the corresponding banner. CDN URLs and banner copy live in `shared/category-banners.json`; generation details are in `docs/category-banner-assets.md`. The desktop and mobile carousel has one slide per category plus two desktop side posters (26 banners total; admin limit 30).
+
+Set the server-only `CLOUDINARY_URL` in `backend/.env` to send new authenticated admin image/video uploads to Cloudinary. Never add it to frontend environment variables. With Cloudinary configured, upload validation uses temporary files that are removed after completion; original media is not retained in the project. Existing local media URLs remain supported. This checkout did not include the previously uploaded product photographs or real Supabase environment files; restore those separately to enable the existing product photography and login.
+
 Demo product/editorial photos originate from Unsplash, with original photo IDs retained in filenames and seed data. They are illustrative and must be replaced with actual catalog photography before launch. Font licenses are in `frontend/public/fonts/`.
 
 Mobile storefront uses its own vertically composed poster, compact category grid and native system typography. Brand: Nayvilo. Hostinger showed nayvilo.com available on 2026-09-21; it has not been purchased or reserved.

@@ -94,7 +94,7 @@ export function BannerEditor({
           ? "Use portrait or square artwork for mobile."
           : "Use wide artwork for desktop."}{" "}
         Transparent PNG/WebP artwork works best with this layout. Each device
-        has its own slides and order. Up to 12 total.
+        has its own slides and order. Up to 30 total.
       </p>
       {message && <p role="status">{message}</p>}
       {shown.map((b, i) => (
@@ -204,7 +204,7 @@ export function BannerEditor({
           </div>
         </section>
       ))}
-      {banners.length < 12 && (
+      {banners.length < 30 && (
         <button
           className="button outline"
           onClick={() =>

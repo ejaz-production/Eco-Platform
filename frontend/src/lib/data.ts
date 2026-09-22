@@ -78,6 +78,7 @@ const bundledPhotos = new Set([
 export const photo = (id: string, w = 900) =>
   id.startsWith("/images/") ||
   id.startsWith("/api/media/") ||
+  id.startsWith("https://res.cloudinary.com/p76rvfxz/image/upload/") ||
   id.startsWith("blob:")
     ? id
     : bundledPhotos.has(id)

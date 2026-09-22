@@ -10,9 +10,13 @@ import {
   Play,
 } from "lucide-react";
 import { Banner, photo } from "@/lib/data";
+import { collections } from "@/lib/collections";
 export function HeroCarousel({ banners }: { banners: Banner[] }) {
   const [mobile, setMobile] = useState<boolean | null>(null),
-    [position, setPosition] = useState<{ index: number; previous: number | null }>({ index: 0, previous: null }),
+    [position, setPosition] = useState<{
+      index: number;
+      previous: number | null;
+    }>({ index: 0, previous: null }),
     [paused, setPaused] = useState(false);
   useEffect(() => {
     const m = matchMedia("(max-width:760px)");
@@ -36,20 +40,30 @@ export function HeroCarousel({ banners }: { banners: Banner[] }) {
   useEffect(() => {
     if (paused || slides.length < 2 || mobile === null) return;
     const t = setInterval(() => {
-      if (!document.hidden) setPosition((p) => ({ index: (p.index + 1) % slides.length, previous: p.index }));
+      if (!document.hidden)
+        setPosition((p) => ({
+          index: (p.index + 1) % slides.length,
+          previous: p.index,
+        }));
     }, 5000);
     return () => clearInterval(t);
   }, [paused, slides.length, mobile]);
   useEffect(() => {
     if (position.previous === null) return;
-    const timeout = setTimeout(() => setPosition((p) => ({ ...p, previous: null })), 2100);
+    const timeout = setTimeout(
+      () => setPosition((p) => ({ ...p, previous: null })),
+      2100,
+    );
     return () => clearTimeout(timeout);
   }, [position.index, position.previous]);
   const index = position.index;
-  const goTo = (target: number) => setPosition((p) => {
-    const nextIndex = (target + slides.length) % slides.length;
-    return nextIndex === p.index ? p : { index: nextIndex, previous: p.index };
-  });
+  const goTo = (target: number) =>
+    setPosition((p) => {
+      const nextIndex = (target + slides.length) % slides.length;
+      return nextIndex === p.index
+        ? p
+        : { index: nextIndex, previous: p.index };
+    });
   if (mobile === null)
     return (
       <div className="wrap">
@@ -64,8 +78,7 @@ export function HeroCarousel({ banners }: { banners: Banner[] }) {
       ),
     )
     .filter((b): b is Banner => !!b);
-  const next = (delta: number) =>
-    goTo(index + delta);
+  const next = (delta: number) => goTo(index + delta);
   return (
     <section
       className={
@@ -91,28 +104,45 @@ export function HeroCarousel({ banners }: { banners: Banner[] }) {
         {[position.previous, index].map((slideIndex, layer) => {
           if (slideIndex === null) return null;
           const slide = slides[slideIndex % slides.length];
+          const collection = collections.find((c) => c.image === slide.image);
           const exiting = layer === 0;
-          return <div key={`${slide.id}-${exiting ? "out" : "in"}`} className={`hero-slide ${exiting ? "hero-slide-exit" : "hero-slide-enter"} ${!exiting && position.previous !== null ? "hero-slide-delayed" : ""}`} aria-hidden={exiting || undefined} inert={exiting}>
-        <div key={slide.id + "-text"} className="hero-text hero-copy-enter">
-          <span className="eyebrow">{slide.eyebrow}</span>
-          <h1>{slide.title}</h1>
-          <p>{slide.description}</p>
-          <Link className="button" href={slide.href || "/shop"}>
-            {slide.cta || "Shop now"}
-            <ArrowRight size={17} />
-          </Link>
-        </div>
-        <div key={slide.id + "-image"} className="hero-art hero-image-enter">
-          <Image
-            key={slide.image}
-            src={photo(slide.image, 1400)}
-            alt={slide.eyebrow || "Featured collection"}
-            fill
-            priority
-            sizes="(max-width:760px) 90vw,35vw"
-          />
-        </div>
-        </div>;
+          return (
+            <div
+              key={`${slide.id}-${exiting ? "out" : "in"}`}
+              style={{ backgroundColor: collection?.color }}
+              className={`hero-slide ${exiting ? "hero-slide-exit" : "hero-slide-enter"} ${!exiting && position.previous !== null ? "hero-slide-delayed" : ""}`}
+              aria-hidden={exiting || undefined}
+              inert={exiting}
+            >
+              <div
+                key={slide.id + "-text"}
+                className="hero-text hero-copy-enter"
+              >
+                <span className="eyebrow">{slide.eyebrow}</span>
+                <h1>{slide.title}</h1>
+                <p>{slide.description}</p>
+                <Link className="button" href={slide.href || "/shop"}>
+                  {slide.cta || "Shop now"}
+                  <ArrowRight size={17} />
+                </Link>
+              </div>
+              <div
+                key={slide.id + "-image"}
+                className="hero-art hero-image-enter"
+              >
+                <Image
+                  key={slide.image}
+                  src={photo(slide.image, 1400)}
+                  alt={
+                    collection?.alt || slide.eyebrow || "Featured collection"
+                  }
+                  fill
+                  priority
+                  sizes="(max-width:760px) 90vw,35vw"
+                />
+              </div>
+            </div>
+          );
         })}
         {slides.length > 1 && (
           <div className="hero-controls">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./tech.css";
 import "./commerce.css";
+import "./collections.css";
 import "./admin.css";
 import { Provider } from "@/components/provider";
 import { SiteShell } from "@/components/site-shell";

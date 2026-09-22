@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
+import { collectionFor } from "@/lib/collections";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import { ProductCard } from "./product-card";
 import { categories, type Product } from "@/lib/data";
@@ -22,6 +24,7 @@ export function Shop({
     [sort, setSort] = useState(initialSort),
     [max, setMax] = useState(300000);
   const { wishlist } = useStore();
+  const collection = !saved ? collectionFor(category) : undefined;
   const filtered = products
     .filter(
       (p) =>
@@ -44,19 +47,46 @@ export function Shop({
     );
   return (
     <div className="wrap shop-page">
-      <div className="page-intro">
-        <span className="eyebrow">
-          {saved
-            ? "KEEP THE GOOD ONES CLOSE"
-            : "THOUGHTFULLY PICKED. JUST FOR YOU."}
-        </span>
-        <h1>{saved ? "Your saved finds." : "Find your upgrade."}</h1>
-        <p>
-          {saved
-            ? "A little collection of things you love."
-            : "Smartwatches, toys, audio, power banks and the accessories that bring it all together."}
-        </p>
-      </div>
+      {collection ? (
+        <section
+          className="category-banner"
+          style={{ backgroundColor: collection.color }}
+          aria-label={`${collection.category} collection`}
+        >
+          <div className="category-banner-copy">
+            <span className="eyebrow">{collection.eyebrow}</span>
+            <h1>{collection.title}</h1>
+            <p>{collection.description}</p>
+            <span className="category-banner-count">
+              {products.filter((p) => p.category === category).length} products
+              · {collection.category}
+            </span>
+          </div>
+          <div className="category-banner-art">
+            <Image
+              src={collection.image}
+              alt={collection.alt}
+              fill
+              sizes="(max-width:760px) 90vw, 45vw"
+              loading="eager"
+            />
+          </div>
+        </section>
+      ) : (
+        <div className="page-intro">
+          <span className="eyebrow">
+            {saved
+              ? "KEEP THE GOOD ONES CLOSE"
+              : "THOUGHTFULLY PICKED. JUST FOR YOU."}
+          </span>
+          <h1>{saved ? "Your saved finds." : "Find your upgrade."}</h1>
+          <p>
+            {saved
+              ? "A little collection of things you love."
+              : "Smartwatches, toys, audio, power banks and the accessories that bring it all together."}
+          </p>
+        </div>
+      )}
       <div className="shop-toolbar">
         <div className="search shop-search">
           <Search size={18} />
