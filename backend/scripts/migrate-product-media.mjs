@@ -1,7 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 import { uploadToCloudinary } from "../src/cloudinary.js";
 
-const sourceDir = "D:/Projects/Ecommerce/backend/data/media";
+const sourceDir = process.env.MEDIA_SOURCE_DIR || fileURLToPath(new URL("../data/media/", import.meta.url));
 const targets = [
   new URL("../src/catalog.js", import.meta.url),
   new URL("../../frontend/src/lib/data.ts", import.meta.url),
@@ -26,7 +28,7 @@ async function worker() {
     const file = queue.pop();
     const id = file.replace(/\.webp$/, "");
     try {
-      const bytes = await readFile(`${sourceDir}/${file}`);
+      const bytes = await readFile(resolve(sourceDir, file));
       const result = await uploadToCloudinary(bytes, {
         publicId: `nayvilo/media/${id}`,
         filename: file,
