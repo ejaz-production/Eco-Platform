@@ -5,13 +5,15 @@ import { rateLimit } from "express-rate-limit";
 import { createClient } from "@supabase/supabase-js";
 import { verifyCredentials } from "@supabase/server/core";
 import { randomUUID } from "node:crypto";
-import { store, mutate } from "./store.js";
+import { readStore, mutate } from "./store.js";
 import { orderSchema, priceOrder } from "./validation.js";
 import { z } from "zod";
 import { productSchema, bannersSchema } from "./content.js";
 import { upload, saveUpload, mediaDirectory } from "./uploads.js";
 import { eventSchema, recordEvent, getEvents } from "./analytics.js";
 const app = express();
+if (process.env.NODE_ENV === "production" && !process.env.CLOUDINARY_URL) throw Error("Production uploads require CLOUDINARY_URL.");
+if (process.env.TRUST_PROXY) app.set("trust proxy", process.env.TRUST_PROXY.split(",").map(v => v.trim()));
 const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_PUBLISHABLE_KEY,
@@ -73,19 +75,19 @@ app.post("/api/admin/products", auth, admin, async (req, res) => {
   res.status(201).json(product);
 });
 app.get("/api/health", (_, res) =>
-  res.json({ status: "ok", mode: "demo-catalog", storage: "local-json" }),
+  res.json({ status: "ok", mode: "demo-catalog", storage: process.env.STORAGE_DRIVER || "local-json" }),
 );
-app.get("/api/products", (_, res) => res.json(store.products));
+app.get("/api/products", async (_, res) => res.json((await readStore()).products));
 app.post("/api/events", rateLimit({ windowMs: 60000, limit: 60 }), async (req, res) => {
   await recordEvent(eventSchema.parse(req.body));
   res.status(202).json({ ok: true });
 });
-app.get("/api/admin/events", auth, admin, (req, res) => {
+app.get("/api/admin/events", auth, admin, async (req, res) => {
   const days = z.coerce.number().int().min(1).max(30).catch(7).parse(req.query.days);
-  res.json({ events: getEvents(days), days });
+  res.json({ events: await getEvents(days), days });
 });
-app.get("/api/banners", (_, res) =>
-  res.json(store.banners.filter((b) => b.active)),
+app.get("/api/banners", async (_, res) =>
+  res.json((await readStore()).banners.filter((b) => b.active)),
 );
 app.post(
   "/api/orders",
@@ -114,10 +116,10 @@ app.post(
     res.status(201).json(order);
   },
 );
-app.get("/api/orders", auth, (req, res) =>
-  res.json(store.orders.filter((o) => o.userId === req.user.id)),
+app.get("/api/orders", auth, async (req, res) =>
+  res.json((await readStore()).orders.filter((o) => o.userId === req.user.id)),
 );
-app.get("/api/admin", auth, admin, (_, res) => res.json(store));
+app.get("/api/admin", auth, admin, async (_, res) => res.json(await readStore()));
 app.patch("/api/admin/orders/:id", auth, admin, async (req, res) => {
   const status = z
     .enum(["Confirmed", "Packed", "Shipped", "Delivered", "Cancelled"])

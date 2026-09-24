@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch --env-file=.env src/server.js",
-    "start": "node --env-file=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js",
     "test": "node --test"
   },
   "dependencies": {
@@ -19,5 +19,8 @@
     "multer": "^2.4.0",
     "sharp": "^0.35.4",
     "zod": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=22.16.0"
   }
 }
