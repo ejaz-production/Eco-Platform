@@ -99,6 +99,19 @@ export const categories = [
   "POS Package",
   "Gadgets",
 ];
+export const categoryLabel = (category: string) =>
+  (
+    ({
+      "Mobile Accessories": "Mobile",
+      "Car Accessories": "Car",
+      "Power Solutions": "Power",
+      "Home Decor": "Decor",
+      "Vlogging Setup": "Vlogging",
+      "Mounts & Stands": "Mounts",
+      "PC & Laptop": "PC",
+      "POS Package": "POS",
+    }) as Record<string, string>
+  )[category] || category;
 export const demoOrders: Order[] = [
   {
     id: "SY-20481",
@@ -108,7 +121,7 @@ export const demoOrders: Order[] = [
         name: "Fighter Jet RC Quadcopter Drone - Camouflage Edition",
         price: 5490,
         quantity: 1,
-        image: "/api/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
+        image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183721/nayvilo/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
       },
     ],
     subtotal: 5490,
@@ -132,7 +145,7 @@ export const demoOrders: Order[] = [
         name: "4WD Off-Road Mini Toy Tractor",
         price: 1450,
         quantity: 2,
-        image: "/api/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
+        image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183718/nayvilo/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
       },
     ],
     subtotal: 2900,

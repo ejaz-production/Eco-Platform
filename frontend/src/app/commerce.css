@@ -551,32 +551,53 @@
 .hero-layout.has-side-posters {
   display: grid;
   grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, clamp(340px, 26.5vw, 410px));
   gap: 16px;
+  height: clamp(340px, 26.5vw, 410px);
+  max-height: clamp(340px, 26.5vw, 410px);
+  min-height: 0;
+  align-items: stretch;
+  overflow: hidden;
 }
 .hero-layout .hero-carousel {
   grid-template-columns: 48% 52%;
-  min-height: 410px;
+  height: clamp(340px, 26.5vw, 410px);
+  min-height: 0;
   border-radius: 12px;
   background: #eef1f4;
 }
 .hero-layout .hero-text {
-  padding: 43px 0 74px 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  padding: 28px 8px 56px 28px;
 }
 .hero-layout .hero-text h1 {
-  font-size: clamp(36px, 4.1vw, 58px);
-  letter-spacing: -2.5px;
-  margin: 20px 0;
+  font-size: clamp(30px, 2.7vw, 46px);
+  letter-spacing: -1.8px;
+  line-height: 1.05;
+  margin: 10px 0 12px;
 }
 .hero-layout .hero-text p {
   font-size: 12px;
-  max-width: 225px;
-  line-height: 1.7;
+  max-width: 240px;
+  line-height: 1.55;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .hero-layout .hero-art {
-  margin: 25px 14px 30px 0;
+  height: 100%;
+  min-height: 0;
+  margin: 18px 12px 22px 0;
   background: transparent;
   border-radius: 0;
-  overflow: visible;
+  overflow: hidden;
 }
 .hero-layout .hero-art img {
   object-fit: contain;
@@ -599,15 +620,18 @@
 }
 .hero-side-posters {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
   gap: 16px;
   min-width: 0;
+  min-height: 0;
+  height: 100%;
 }
 .hero-side-card {
   position: relative;
   display: grid;
   grid-template-columns: 52% 48%;
-  min-height: 197px;
+  min-height: 0;
+  height: 100%;
   background: #f2f0ed;
   border-radius: 12px;
   overflow: hidden;
@@ -670,11 +694,16 @@
   .hero-side-card h2 {
     font-size: 22px;
   }
-  .hero-layout .hero-carousel {
-    min-height: 380px;
+  .hero-layout .hero-carousel,
+  .hero-layout.has-side-posters {
+    height: clamp(320px, 34vw, 380px);
+    max-height: clamp(320px, 34vw, 380px);
+  }
+  .hero-layout.has-side-posters {
+    grid-template-rows: minmax(0, clamp(320px, 34vw, 380px));
   }
   .hero-side-card {
-    min-height: 182px;
+    min-height: 0;
   }
   .hero-layout .hero-art {
     margin-right: 4px;
@@ -769,8 +798,20 @@
   }
 }
 /* Stationary composition: artwork moves independently while copy crossfades. */
-.hero-layout .hero-carousel { display: grid; grid-template-columns: minmax(0, 1fr); }
-.hero-slide { grid-area: 1 / 1; min-width: 0; display: grid; grid-template-columns: 48% 52%; }
+.hero-layout .hero-carousel { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 0; }
+.hero-layout.has-side-posters .hero-carousel { height: 100%; max-height: 100%; align-self: stretch; }
+.hero-slide { grid-area: 1 / 1; min-width: 0; min-height: 0; height: 100%; display: grid; grid-template-columns: 48% 52%; align-items: stretch; overflow: hidden; }
+@media (min-width: 761px) {
+  .hero-layout .hero-carousel { position: relative; overflow: hidden; }
+  .hero-layout .hero-slide {
+    position: absolute;
+    inset: 0;
+    height: auto;
+    max-height: none;
+  }
+  .hero-layout .hero-art { height: auto; align-self: stretch; }
+  .hero-layout .hero-art img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; }
+}
 .hero-slide-exit { pointer-events: none; }
 .hero-slide-exit .hero-image-enter { animation: hero-product-depart 650ms cubic-bezier(.4,0,.6,1) both; }
 .hero-slide-exit .hero-copy-enter > * { animation: hero-copy-hide 280ms ease-out both; }

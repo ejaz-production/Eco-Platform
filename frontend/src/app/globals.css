@@ -953,21 +953,10 @@ footer {
   padding-bottom: 70px;
 }
 .shop-toolbar {
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 17px 0;
+  padding: 0 0 8px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 20px;
-}
-.shop-search {
-  width: 350px;
-  background: transparent;
-  border: 1px solid var(--line);
-}
-.shop-search input {
-  width: 100%;
-  font-size: 12px;
 }
 .sort-label {
   display: flex;
@@ -3105,13 +3094,6 @@ td small {
     gap: 12px;
     padding: 12px 0;
     align-items: center;
-  }
-  .shop-search {
-    width: 55%;
-    padding: 10px;
-  }
-  .shop-search input {
-    font-size: 10px;
   }
   .sort-label {
     font-size: 0;

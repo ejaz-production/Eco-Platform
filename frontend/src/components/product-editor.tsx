@@ -4,6 +4,7 @@ import { Product, Media, categories, photo } from "@/lib/data";
 import { api } from "@/lib/supabase";
 import { ProductGallery } from "./product-gallery";
 import { MediaUpload } from "./media-upload";
+import { Dropdown } from "./dropdown";
 import { X, ArrowUp, ArrowDown, Play } from "lucide-react";
 export function ProductEditor({
   product,
@@ -106,16 +107,14 @@ export function ProductEditor({
           </label>
           <label>
             Category
-            <select
+            <Dropdown
               name="category"
+              ariaLabel="Category"
               defaultValue={product.category || "Mobile Accessories"}
-            >
-              {categories
-                .filter((c) => c !== "All")
-                .map((c) => (
-                  <option key={c}>{c}</option>
-                ))}
-            </select>
+              options={categories
+                .filter((item) => item !== "All")
+                .map((item) => ({ value: item, label: item }))}
+            />
           </label>
           <label>
             Price (PKR)

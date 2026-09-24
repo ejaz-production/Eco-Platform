@@ -5,6 +5,7 @@ import { useStore } from "@/components/provider";
 import { api } from "@/lib/supabase";
 import { money, type Order, type Product } from "@/lib/data";
 import { ArrowUpRight, Check, ShieldCheck } from "lucide-react";
+import { Dropdown } from "@/components/dropdown";
 export default function Checkout() {
   const { cart, user, authReady, clear } = useStore(),
     [busy, setBusy] = useState(false),
@@ -168,11 +169,13 @@ export default function Checkout() {
             </label>
             <label>
               City
-              <select required name="city" defaultValue="">
-                <option value="" disabled>
-                  Select your city
-                </option>
-                {[
+              <Dropdown
+                name="city"
+                required
+                ariaLabel="City"
+                placeholder="Select your city"
+                defaultValue=""
+                options={[
                   "Karachi",
                   "Lahore",
                   "Islamabad",
@@ -183,10 +186,8 @@ export default function Checkout() {
                   "Quetta",
                   "Sialkot",
                   "Gujranwala",
-                ].map((c) => (
-                  <option key={c}>{c}</option>
-                ))}
-              </select>
+                ].map((city) => ({ value: city, label: city }))}
+              />
             </label>
             <label className="full-width">
               Street address

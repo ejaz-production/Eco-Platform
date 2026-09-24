@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Banner, photo } from "@/lib/data";
 import { api } from "@/lib/supabase";
 import { MediaUpload } from "./media-upload";
+import { Dropdown } from "./dropdown";
 import { ArrowUp, ArrowDown, Trash2, Plus } from "lucide-react";
 export function BannerEditor({
   initial,
@@ -134,38 +135,42 @@ export function BannerEditor({
             </div>
             <label>
               Display on
-              <select
+              <Dropdown
+                ariaLabel="Display on"
                 value={b.target || "both"}
-                onChange={(e) =>
+                onChange={(value) =>
                   patch(b.id, {
-                    target: e.target.value as Banner["target"],
-                    ...(e.target.value === "mobile"
+                    target: value as Banner["target"],
+                    ...(value === "mobile"
                       ? { placement: "main" as const }
                       : {}),
                   })
                 }
-              >
-                <option value="desktop">Desktop</option>
-                <option value="mobile">Mobile</option>
-                <option value="both">Both devices</option>
-              </select>
+                options={[
+                  { value: "desktop", label: "Desktop" },
+                  { value: "mobile", label: "Mobile" },
+                  { value: "both", label: "Both devices" },
+                ]}
+              />
             </label>
             {target === "desktop" && (
               <label>
                 Position
-                <select
+                <Dropdown
+                  ariaLabel="Position"
                   value={b.placement || "main"}
-                  onChange={(e) =>
+                  onChange={(value) =>
                     patch(b.id, {
-                      placement: e.target.value as Banner["placement"],
+                      placement: value as Banner["placement"],
                       target: "desktop",
                     })
                   }
-                >
-                  <option value="main">Main rotating banner</option>
-                  <option value="side-top">Top side poster</option>
-                  <option value="side-bottom">Bottom side poster</option>
-                </select>
+                  options={[
+                    { value: "main", label: "Main rotating banner" },
+                    { value: "side-top", label: "Top side poster" },
+                    { value: "side-bottom", label: "Bottom side poster" },
+                  ]}
+                />
               </label>
             )}
             {(

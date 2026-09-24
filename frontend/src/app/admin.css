@@ -46,7 +46,7 @@
  .admin-panel .admin-title { align-items: flex-start; gap: 12px; } .admin-panel .date-pill { display: none; }
  .admin-panel .stat-grid { gap: 10px; } .admin-panel .stat-grid > div { padding: 17px; } .admin-panel .stat-grid strong { font-size: 26px; }
  .event-grid { grid-template-columns: 1fr; gap: 14px; } .event-card { padding: 18px; }
- .event-toolbar input { flex-basis: 100%; } .event-toolbar select { flex: 1; min-width: 0; }
+ .event-toolbar input { flex-basis: 100%; } .event-toolbar .nv-dropdown { flex: 1; min-width: 0; max-width: none; }
  .admin-panel .analytics-grid { grid-template-columns: 1fr; } .admin-panel .section-heading { flex-wrap: wrap; gap: 12px; }
  .admin-panel .table-panel { padding: 16px; } .admin-panel table { min-width: 570px; }
 }

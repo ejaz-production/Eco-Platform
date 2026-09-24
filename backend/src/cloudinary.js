@@ -2,7 +2,13 @@ import { createHash } from "node:crypto";
 
 export async function uploadToCloudinary(
   bytes,
-  { publicId, type = "image", filename = "image.png", mime = "image/png" },
+  {
+    publicId,
+    type = "image",
+    filename = "image.png",
+    mime = "image/png",
+    overwrite = "false",
+  },
 ) {
   if (!process.env.CLOUDINARY_URL)
     throw Error("Cloudinary upload configuration is missing.");
@@ -10,7 +16,7 @@ export async function uploadToCloudinary(
   if (config.protocol !== "cloudinary:" || config.hostname !== "p76rvfxz")
     throw Error("Invalid Cloudinary environment configuration.");
   const params = {
-    overwrite: "false",
+    overwrite,
     public_id: publicId,
     timestamp: String(Math.floor(Date.now() / 1000)),
   };

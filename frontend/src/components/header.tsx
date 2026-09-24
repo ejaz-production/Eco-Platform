@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import {
   Package,
   Search,
@@ -14,15 +14,40 @@ import {
   ChevronDown,
   MapPin,
 } from "lucide-react";
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useStore } from "./provider";
 import { categories } from "@/lib/data";
+import { FilterButton } from "./filter-panel";
+function HeaderSearch() {
+  const router = useRouter();
+  const urlQuery = useSearchParams().get("q") ?? "";
+  const [query, setQuery] = useState(urlQuery);
+  useEffect(() => {
+    setQuery(urlQuery);
+  }, [urlQuery]);
+  return (
+    <form
+      className="tech-search"
+      onSubmit={(e) => {
+        e.preventDefault();
+        router.push("/shop?q=" + encodeURIComponent(query));
+      }}
+    >
+      <Search size={18} />
+      <input
+        aria-label="Search products"
+        placeholder="Search watches, toys, audio and more"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <kbd>↵</kbd>
+    </form>
+  );
+}
 export function Header() {
   const { cart, user, wishlist } = useStore();
-  const [menu, setMenu] = useState(false),
-    [query, setQuery] = useState("");
-  const router = useRouter(),
-    path = usePathname();
+  const [menu, setMenu] = useState(false);
+  const path = usePathname();
   const count = cart.reduce((s, i) => s + i.quantity, 0);
   return (
     <>
@@ -49,22 +74,25 @@ export function Header() {
           <Link href="/" className="tech-logo" aria-label="Nayvilo home">
             nayvilo<span>.</span>
           </Link>
-          <form
-            className="tech-search"
-            onSubmit={(e) => {
-              e.preventDefault();
-              router.push("/shop?q=" + encodeURIComponent(query));
-            }}
+          <Suspense
+            fallback={
+              <div className="header-search-row">
+                <form className="tech-search">
+                  <Search size={18} />
+                  <input
+                    aria-label="Search products"
+                    placeholder="Search watches, toys, audio and more"
+                    readOnly
+                  />
+                </form>
+              </div>
+            }
           >
-            <Search size={18} />
-            <input
-              aria-label="Search products"
-              placeholder="Search watches, toys, audio and more"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-            <kbd>↵</kbd>
-          </form>
+            <div className="header-search-row">
+              <HeaderSearch />
+              <FilterButton />
+            </div>
+          </Suspense>
           <div className="tech-header-actions">
             <Link
               href={user ? "/account" : "/login"}

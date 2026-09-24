@@ -1,29 +1,63 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { collectionFor } from "@/lib/collections";
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { SlidersHorizontal, X } from "lucide-react";
 import { ProductCard } from "./product-card";
-import { categories, type Product } from "@/lib/data";
+import { categories, categoryLabel, type Product } from "@/lib/data";
 import { useStore } from "./provider";
+import {
+  PRICE_MAX,
+  readFilters,
+  writeFilters,
+} from "@/lib/shop-filters";
 export function Shop({
   products,
   initialCategory = "All",
   initialQuery = "",
   initialSort = "featured",
+  initialMin = 0,
+  initialMax = PRICE_MAX,
+  initialInStock = false,
+  initialOnSale = false,
+  initialRating = 0,
   saved = false,
 }: {
   products: Product[];
   initialCategory?: string;
   initialQuery?: string;
   initialSort?: string;
+  initialMin?: number;
+  initialMax?: number;
+  initialInStock?: boolean;
+  initialOnSale?: boolean;
+  initialRating?: number;
   saved?: boolean;
 }) {
   const [category, setCategory] = useState(initialCategory),
     [query, setQuery] = useState(initialQuery),
     [sort, setSort] = useState(initialSort),
-    [max, setMax] = useState(300000);
+    [min, setMin] = useState(initialMin),
+    [max, setMax] = useState(initialMax),
+    [inStock, setInStock] = useState(initialInStock),
+    [onSale, setOnSale] = useState(initialOnSale),
+    [rating, setRating] = useState(initialRating);
   const { wishlist } = useStore();
+  const router = useRouter();
+  const pathname = usePathname();
+  const params = useSearchParams();
+  useEffect(() => {
+    const filters = readFilters(params);
+    setCategory(params.get("category") || "All");
+    setQuery(params.get("q") || "");
+    setSort(filters.sort);
+    setMin(filters.min);
+    setMax(filters.max);
+    setInStock(filters.inStock);
+    setOnSale(filters.onSale);
+    setRating(filters.rating);
+  }, [params]);
   const collection = !saved ? collectionFor(category) : undefined;
   const filtered = products
     .filter(
@@ -31,7 +65,11 @@ export function Shop({
         (!saved || wishlist.includes(p.id)) &&
         (category === "All" || p.category === category) &&
         p.name.toLowerCase().includes(query.toLowerCase()) &&
-        p.price <= max,
+        p.price >= min &&
+        p.price <= max &&
+        (!inStock || p.stock > 0) &&
+        (!onSale || p.oldPrice > p.price) &&
+        (rating <= 0 || p.rating >= rating),
     )
     .sort((a, b) =>
       sort === "low"
@@ -87,36 +125,6 @@ export function Shop({
           </p>
         </div>
       )}
-      <div className="shop-toolbar">
-        <div className="search shop-search">
-          <Search size={18} />
-          <input
-            aria-label="Search collection"
-            placeholder="Search your next upgrade…"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-          {query && (
-            <button aria-label="Clear search" onClick={() => setQuery("")}>
-              <X size={16} />
-            </button>
-          )}
-        </div>
-        <label className="sort-label">
-          Sort by{" "}
-          <select
-            aria-label="Sort products"
-            value={sort}
-            onChange={(e) => setSort(e.target.value)}
-          >
-            <option value="featured">Our favourites</option>
-            <option value="new">New arrivals</option>
-            <option value="low">Price: low to high</option>
-            <option value="high">Price: high to low</option>
-            <option value="sale">Biggest savings</option>
-          </select>
-        </label>
-      </div>
       <div className="shop-layout">
         <aside className="filters">
           <h3>
@@ -127,9 +135,18 @@ export function Shop({
             <button
               key={c}
               className={category === c ? "filter-active" : ""}
-              onClick={() => setCategory(c)}
+              onClick={() => {
+                setCategory(c);
+                const query = new URLSearchParams(params.toString());
+                if (c === "All") query.delete("category");
+                else query.set("category", c);
+                const search = query.toString();
+                router.replace(pathname + (search ? "?" + search : ""), {
+                  scroll: false,
+                });
+              }}
             >
-              {c}
+              {categoryLabel(c)}
               <span>
                 {products.filter((p) => c === "All" || p.category === c).length}
               </span>
@@ -144,15 +161,27 @@ export function Shop({
             step="5000"
             value={max}
             onChange={(e) => setMax(+e.target.value)}
+            onPointerUp={(e) => {
+              const next = +e.currentTarget.value;
+              const query = writeFilters(params, {
+                sort,
+                min,
+                max: next,
+                inStock,
+                onSale,
+                rating,
+              });
+              const search = query.toString();
+              router.replace(pathname + (search ? "?" + search : ""), {
+                scroll: false,
+              });
+            }}
           />
           <p>Up to Rs. {max.toLocaleString()}</p>
           <button
             className="text-link"
             onClick={() => {
-              setCategory("All");
-              setMax(300000);
-              setQuery("");
-              setSort("featured");
+              router.replace(pathname, { scroll: false });
             }}
           >
             Reset filters <X size={14} />

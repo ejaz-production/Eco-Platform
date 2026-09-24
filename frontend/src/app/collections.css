@@ -169,3 +169,114 @@
     transform: none;
   }
 }
+@media (max-width: 760px) {
+  .hero-layout,
+  .hero-layout.has-side-posters {
+    display: block;
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    overflow: visible;
+  }
+  .hero-layout .hero-carousel,
+  .hero-layout.has-side-posters .hero-carousel {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    height: min(468px, calc(100dvh - 286px));
+    max-height: min(468px, calc(100dvh - 286px));
+    min-height: 0;
+    overflow: hidden;
+    border-radius: 18px;
+  }
+  .hero-layout .hero-slide {
+    position: relative;
+    inset: auto;
+    grid-area: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+    align-self: stretch;
+    height: 100%;
+    min-height: 0;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .hero-layout .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    overflow: visible;
+    min-height: 0;
+    padding: clamp(16px, 2.4dvh, 22px) clamp(16px, 4.5vw, 20px) 0;
+  }
+  .hero-layout .hero-text h1 {
+    font-size: clamp(26px, 7.6vw, 32px);
+    line-height: 1.05;
+    letter-spacing: -1.1px;
+    white-space: pre-line;
+    max-width: none;
+    margin: 8px 0 10px;
+  }
+  .hero-layout .hero-text p {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    max-width: none;
+    font-size: clamp(12px, 3.2vw, 13px);
+    line-height: 1.45;
+    margin: 0 0 14px;
+  }
+  .hero-layout .hero-text .button {
+    width: 100%;
+    justify-content: center;
+    min-height: clamp(42px, 6dvh, 46px);
+  }
+  .hero-layout .hero-art {
+    position: relative;
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+    align-self: stretch;
+    margin: 12px 8px 32px;
+    overflow: hidden;
+  }
+  .hero-layout .hero-art img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+  }
+  .hero-layout .hero-controls {
+    left: 10px;
+    right: 10px;
+    bottom: 8px;
+    width: auto;
+    max-width: none;
+    transform: none;
+    justify-content: center;
+    gap: 2px;
+    padding: 2px 4px;
+  }
+  .hero-layout .hero-controls > div {
+    flex: 1 1 auto;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .hero-layout .hero-controls > div button {
+    flex: 0 0 14px;
+    min-width: 14px;
+    width: 14px;
+  }
+  .hero-layout .hero-controls > button {
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+  }
+}

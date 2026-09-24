@@ -7,11 +7,11 @@ export const products = [
     category: "Toys",
     price: 5490,
     oldPrice: 6990,
-    image: "/api/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
+    image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183721/nayvilo/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
     media: [
       {
         type: "image",
-        src: "/api/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183721/nayvilo/media/5e45dd90-ceb5-4f78-a480-c303e1661de0.webp",
         alt: "Fighter Jet RC Quadcopter Drone with remote and spare propellers",
       },
     ],
@@ -34,11 +34,11 @@ export const products = [
     category: "Toys",
     price: 6990,
     oldPrice: 8490,
-    image: "/api/media/256b1932-8512-4c11-9259-96216613042e.webp",
+    image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183721/nayvilo/media/256b1932-8512-4c11-9259-96216613042e.webp",
     media: [
       {
         type: "image",
-        src: "/api/media/256b1932-8512-4c11-9259-96216613042e.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183721/nayvilo/media/256b1932-8512-4c11-9259-96216613042e.webp",
         alt: "SU-35 Fighter 4-channel RC airplane packaging",
       },
     ],
@@ -61,26 +61,26 @@ export const products = [
     category: "Toys",
     price: 4250,
     oldPrice: 4990,
-    image: "/api/media/ca8ffc84-6cf1-4505-b5c7-a39a2e3ed71a.webp",
+    image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183720/nayvilo/media/ca8ffc84-6cf1-4505-b5c7-a39a2e3ed71a.webp",
     media: [
       {
         type: "image",
-        src: "/api/media/ca8ffc84-6cf1-4505-b5c7-a39a2e3ed71a.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183720/nayvilo/media/ca8ffc84-6cf1-4505-b5c7-a39a2e3ed71a.webp",
         alt: "Dream Racing mini RC car front view",
       },
       {
         type: "image",
-        src: "/api/media/ee5a044b-4dea-47a2-9092-313debe6953f.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183719/nayvilo/media/ee5a044b-4dea-47a2-9092-313debe6953f.webp",
         alt: "Dream Racing RC car with remote",
       },
       {
         type: "image",
-        src: "/api/media/5bb5cf8d-9d96-4254-8f12-6840a0809004.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183719/nayvilo/media/5bb5cf8d-9d96-4254-8f12-6840a0809004.webp",
         alt: "Dream Racing RC car angle view",
       },
       {
         type: "image",
-        src: "/api/media/d848382f-45f4-4300-a86f-e5852cdb4b53.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183719/nayvilo/media/d848382f-45f4-4300-a86f-e5852cdb4b53.webp",
         alt: "Dream Racing RC car detail",
       },
     ],
@@ -103,16 +103,16 @@ export const products = [
     category: "Toys",
     price: 1450,
     oldPrice: 1890,
-    image: "/api/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
+    image: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183718/nayvilo/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
     media: [
       {
         type: "image",
-        src: "/api/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183718/nayvilo/media/335ac64a-28c2-49e6-a4b3-1a5d72622180.webp",
         alt: "4WD off-road mini toy tractor red",
       },
       {
         type: "image",
-        src: "/api/media/0923fd49-6444-4ebc-a0bb-5c3c6ea30a18.webp",
+        src: "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183718/nayvilo/media/0923fd49-6444-4ebc-a0bb-5c3c6ea30a18.webp",
         alt: "4WD off-road mini toy tractor side view",
       },
     ],
@@ -136,21 +136,21 @@ export const products = [
     "category": "Smartwatches",
     "price": 2250,
     "oldPrice": 0,
-    "image": "/api/media/e06a7dfe-c3a6-454c-b089-c0996ab4da3d.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183717/nayvilo/media/e06a7dfe-c3a6-454c-b089-c0996ab4da3d.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/e06a7dfe-c3a6-454c-b089-c0996ab4da3d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183717/nayvilo/media/e06a7dfe-c3a6-454c-b089-c0996ab4da3d.webp",
         "alt": "Smart Watch Series 11 – 7-in-1 Combo"
       },
       {
         "type": "image",
-        "src": "/api/media/49d3f6a1-8464-4b5a-bfcc-b09f7bd299f2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183716/nayvilo/media/49d3f6a1-8464-4b5a-bfcc-b09f7bd299f2.webp",
         "alt": "Smart Watch Series 11 – 7-in-1 Combo"
       },
       {
         "type": "image",
-        "src": "/api/media/6d9d5286-bf94-4c3c-83a8-d4c36db7e8f1.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183715/nayvilo/media/6d9d5286-bf94-4c3c-83a8-d4c36db7e8f1.webp",
         "alt": "Smart Watch Series 11 – 7-in-1 Combo"
       }
     ],
@@ -171,21 +171,21 @@ export const products = [
     "category": "Smartwatches",
     "price": 4250,
     "oldPrice": 5500,
-    "image": "/api/media/66aea2e4-95d5-4dfd-9330-73769768af05.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183714/nayvilo/media/66aea2e4-95d5-4dfd-9330-73769768af05.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/66aea2e4-95d5-4dfd-9330-73769768af05.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183714/nayvilo/media/66aea2e4-95d5-4dfd-9330-73769768af05.webp",
         "alt": "Apple Logo Series 11 Smartwatch | 2.3\" Full Screen"
       },
       {
         "type": "image",
-        "src": "/api/media/c2233154-c628-40ba-9761-5df1b89d09a6.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183714/nayvilo/media/c2233154-c628-40ba-9761-5df1b89d09a6.webp",
         "alt": "Apple Logo Series 11 Smartwatch | 2.3\" Full Screen"
       },
       {
         "type": "image",
-        "src": "/api/media/a435780b-2757-403a-a15c-af05a60bf215.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183714/nayvilo/media/a435780b-2757-403a-a15c-af05a60bf215.webp",
         "alt": "Apple Logo Series 11 Smartwatch | 2.3\" Full Screen"
       }
     ],
@@ -206,21 +206,21 @@ export const products = [
     "category": "Smartwatches",
     "price": 4499,
     "oldPrice": 0,
-    "image": "/api/media/08e91b8b-13fc-456b-9b41-beeab002ed14.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183713/nayvilo/media/08e91b8b-13fc-456b-9b41-beeab002ed14.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/08e91b8b-13fc-456b-9b41-beeab002ed14.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183713/nayvilo/media/08e91b8b-13fc-456b-9b41-beeab002ed14.webp",
         "alt": "Wear Pro DT NO.1 Max Smartwatch – NFC, Health Tracking & Stylish Circular Display"
       },
       {
         "type": "image",
-        "src": "/api/media/ab506aa1-da5d-49c7-a9e1-e84d3608be44.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183712/nayvilo/media/ab506aa1-da5d-49c7-a9e1-e84d3608be44.webp",
         "alt": "Wear Pro DT NO.1 Max Smartwatch – NFC, Health Tracking & Stylish Circular Display"
       },
       {
         "type": "image",
-        "src": "/api/media/388966d8-b3cf-4d0b-ba75-2f058ab621b4.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183712/nayvilo/media/388966d8-b3cf-4d0b-ba75-2f058ab621b4.webp",
         "alt": "Wear Pro DT NO.1 Max Smartwatch – NFC, Health Tracking & Stylish Circular Display"
       }
     ],
@@ -241,16 +241,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 1999,
     "oldPrice": 0,
-    "image": "/api/media/bb96d51b-2fde-4073-a7f1-d688ff28927b.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183712/nayvilo/media/bb96d51b-2fde-4073-a7f1-d688ff28927b.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/bb96d51b-2fde-4073-a7f1-d688ff28927b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183712/nayvilo/media/bb96d51b-2fde-4073-a7f1-d688ff28927b.webp",
         "alt": "Series 10 Smart Watch – Bluetooth Calling Edition"
       },
       {
         "type": "image",
-        "src": "/api/media/da9f3008-6aef-46fd-b933-67e30200feb1.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183710/nayvilo/media/da9f3008-6aef-46fd-b933-67e30200feb1.webp",
         "alt": "Series 10 Smart Watch – Bluetooth Calling Edition"
       }
     ],
@@ -271,21 +271,21 @@ export const products = [
     "category": "Smartwatches",
     "price": 5299,
     "oldPrice": 0,
-    "image": "/api/media/6fefbf62-e77e-4878-a0bf-6d83cca0c15c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183710/nayvilo/media/6fefbf62-e77e-4878-a0bf-6d83cca0c15c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/6fefbf62-e77e-4878-a0bf-6d83cca0c15c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183710/nayvilo/media/6fefbf62-e77e-4878-a0bf-6d83cca0c15c.webp",
         "alt": "Teklek 7+1 Premium Smart Watch - 2.20\" Display, Bluetooth Calling"
       },
       {
         "type": "image",
-        "src": "/api/media/ae9af267-1d61-4cc0-86f4-02f7a08162e9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183710/nayvilo/media/ae9af267-1d61-4cc0-86f4-02f7a08162e9.webp",
         "alt": "Teklek 7+1 Premium Smart Watch - 2.20\" Display, Bluetooth Calling"
       },
       {
         "type": "image",
-        "src": "/api/media/27adca6f-c334-44a4-81a8-8edceef998cf.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183710/nayvilo/media/27adca6f-c334-44a4-81a8-8edceef998cf.webp",
         "alt": "Teklek 7+1 Premium Smart Watch - 2.20\" Display, Bluetooth Calling"
       }
     ],
@@ -306,16 +306,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 3855,
     "oldPrice": 0,
-    "image": "/api/media/1e7b2c0d-4de7-418d-b994-07628ba9938c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183709/nayvilo/media/1e7b2c0d-4de7-418d-b994-07628ba9938c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/1e7b2c0d-4de7-418d-b994-07628ba9938c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183709/nayvilo/media/1e7b2c0d-4de7-418d-b994-07628ba9938c.webp",
         "alt": "Oly Wear Smart Watch Luxury Gift Set for Women"
       },
       {
         "type": "image",
-        "src": "/api/media/52fc5258-9e6d-46cd-92ae-12d726efab43.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183709/nayvilo/media/52fc5258-9e6d-46cd-92ae-12d726efab43.webp",
         "alt": "Oly Wear Smart Watch Luxury Gift Set for Women"
       }
     ],
@@ -336,16 +336,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 2280,
     "oldPrice": 2850,
-    "image": "/api/media/16d0ebe8-fb92-4425-9fba-e57d7808fa65.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183708/nayvilo/media/16d0ebe8-fb92-4425-9fba-e57d7808fa65.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/16d0ebe8-fb92-4425-9fba-e57d7808fa65.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183708/nayvilo/media/16d0ebe8-fb92-4425-9fba-e57d7808fa65.webp",
         "alt": "Crown H30 Ultra 2 Smart Watch – 7-in-1 Straps, Bluetooth Calling, 2.01” Big Display,"
       },
       {
         "type": "image",
-        "src": "/api/media/c737dbb9-c35a-4dc8-99a9-5e4d8096a859.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183708/nayvilo/media/c737dbb9-c35a-4dc8-99a9-5e4d8096a859.webp",
         "alt": "Crown H30 Ultra 2 Smart Watch – 7-in-1 Straps, Bluetooth Calling, 2.01” Big Display,"
       }
     ],
@@ -366,21 +366,21 @@ export const products = [
     "category": "Smartwatches",
     "price": 3850,
     "oldPrice": 0,
-    "image": "/api/media/89c760e8-7ad1-41fc-a9af-f194b8b47e49.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183708/nayvilo/media/89c760e8-7ad1-41fc-a9af-f194b8b47e49.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/89c760e8-7ad1-41fc-a9af-f194b8b47e49.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183708/nayvilo/media/89c760e8-7ad1-41fc-a9af-f194b8b47e49.webp",
         "alt": "Series 10 APPLE Logo Smartwatch"
       },
       {
         "type": "image",
-        "src": "/api/media/23756a40-95c6-420b-a0c9-a96c76549873.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183707/nayvilo/media/23756a40-95c6-420b-a0c9-a96c76549873.webp",
         "alt": "Series 10 APPLE Logo Smartwatch"
       },
       {
         "type": "image",
-        "src": "/api/media/10f55699-38c6-4303-a73e-c0255d273057.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183707/nayvilo/media/10f55699-38c6-4303-a73e-c0255d273057.webp",
         "alt": "Series 10 APPLE Logo Smartwatch"
       }
     ],
@@ -401,16 +401,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 9500,
     "oldPrice": 0,
-    "image": "/api/media/f5aa542b-b1ee-4c5a-af13-2f615116ce03.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183707/nayvilo/media/f5aa542b-b1ee-4c5a-af13-2f615116ce03.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/f5aa542b-b1ee-4c5a-af13-2f615116ce03.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183707/nayvilo/media/f5aa542b-b1ee-4c5a-af13-2f615116ce03.webp",
         "alt": "TN99 Premium Smartwatch - 316L Stainless Steel Build, AMOLED Display, Ultra-Thin Luxury Design"
       },
       {
         "type": "image",
-        "src": "/api/media/3407cd8a-957d-46f6-a306-1e74c32b334b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/3407cd8a-957d-46f6-a306-1e74c32b334b.webp",
         "alt": "TN99 Premium Smartwatch - 316L Stainless Steel Build, AMOLED Display, Ultra-Thin Luxury Design"
       }
     ],
@@ -431,11 +431,11 @@ export const products = [
     "category": "Smartwatches",
     "price": 5450,
     "oldPrice": 0,
-    "image": "/api/media/3f8a4798-d4a5-4208-a50f-57358b84825d.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/3f8a4798-d4a5-4208-a50f-57358b84825d.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/3f8a4798-d4a5-4208-a50f-57358b84825d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/3f8a4798-d4a5-4208-a50f-57358b84825d.webp",
         "alt": "Z91 Pro Max Luxury Men's Smartwatch – High-Res AMOLED Screen & Advanced Smart Features"
       }
     ],
@@ -456,16 +456,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 4999,
     "oldPrice": 0,
-    "image": "/api/media/97578e5e-a21e-4e6f-a306-e94af56972a7.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/97578e5e-a21e-4e6f-a306-e94af56972a7.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/97578e5e-a21e-4e6f-a306-e94af56972a7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/97578e5e-a21e-4e6f-a306-e94af56972a7.webp",
         "alt": "WISME Series 10 Mini Smartwatch – 5+1 Luxury Edition"
       },
       {
         "type": "image",
-        "src": "/api/media/08900e1f-bc5d-47cf-827c-f84f38d80f87.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183706/nayvilo/media/08900e1f-bc5d-47cf-827c-f84f38d80f87.webp",
         "alt": "WISME Series 10 Mini Smartwatch – 5+1 Luxury Edition"
       }
     ],
@@ -486,16 +486,16 @@ export const products = [
     "category": "Smartwatches",
     "price": 5250,
     "oldPrice": 0,
-    "image": "/api/media/87e82ecb-902a-4e0e-bf77-4dfdb1009160.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183705/nayvilo/media/87e82ecb-902a-4e0e-bf77-4dfdb1009160.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/87e82ecb-902a-4e0e-bf77-4dfdb1009160.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183705/nayvilo/media/87e82ecb-902a-4e0e-bf77-4dfdb1009160.webp",
         "alt": "HK9 Mini Wearfit pro Smartwatch - Elegant Design 7 days+ pro Battery"
       },
       {
         "type": "image",
-        "src": "/api/media/22e966f4-7bb2-4ff0-ae2a-b6a14a6f7756.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183705/nayvilo/media/22e966f4-7bb2-4ff0-ae2a-b6a14a6f7756.webp",
         "alt": "HK9 Mini Wearfit pro Smartwatch - Elegant Design 7 days+ pro Battery"
       }
     ],
@@ -516,21 +516,21 @@ export const products = [
     "category": "Audio",
     "price": 3650,
     "oldPrice": 0,
-    "image": "/api/media/680e9e0a-228a-4911-b40c-caecb45f4f2d.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183705/nayvilo/media/680e9e0a-228a-4911-b40c-caecb45f4f2d.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/680e9e0a-228a-4911-b40c-caecb45f4f2d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183705/nayvilo/media/680e9e0a-228a-4911-b40c-caecb45f4f2d.webp",
         "alt": "Multifunctional Solar Rechargeable Bluetooth Speaker Power Bank With LED Flashlights"
       },
       {
         "type": "image",
-        "src": "/api/media/2f169794-1eb7-40cb-ae86-d8b73de2e827.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183704/nayvilo/media/2f169794-1eb7-40cb-ae86-d8b73de2e827.webp",
         "alt": "Multifunctional Solar Rechargeable Bluetooth Speaker Power Bank With LED Flashlights"
       },
       {
         "type": "image",
-        "src": "/api/media/89d516a9-bcc3-4d4d-8c2f-2060f3fa9de2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183704/nayvilo/media/89d516a9-bcc3-4d4d-8c2f-2060f3fa9de2.webp",
         "alt": "Multifunctional Solar Rechargeable Bluetooth Speaker Power Bank With LED Flashlights"
       }
     ],
@@ -551,16 +551,16 @@ export const products = [
     "category": "Audio",
     "price": 2890,
     "oldPrice": 0,
-    "image": "/api/media/58cc6427-e75a-46fd-b6b6-91a086e142dc.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/58cc6427-e75a-46fd-b6b6-91a086e142dc.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/58cc6427-e75a-46fd-b6b6-91a086e142dc.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/58cc6427-e75a-46fd-b6b6-91a086e142dc.webp",
         "alt": "Apple K AirPods 4PRO (3rd Generation) with MagSafe Charging Case - White"
       },
       {
         "type": "image",
-        "src": "/api/media/2a388f64-c752-4431-92f6-75d1fe6e1757.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/2a388f64-c752-4431-92f6-75d1fe6e1757.webp",
         "alt": "Apple K AirPods 4PRO (3rd Generation) with MagSafe Charging Case - White"
       }
     ],
@@ -581,21 +581,21 @@ export const products = [
     "category": "Audio",
     "price": 2850,
     "oldPrice": 3000,
-    "image": "/api/media/51e2ccd2-18d9-4781-9570-90d108a907d0.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/51e2ccd2-18d9-4781-9570-90d108a907d0.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/51e2ccd2-18d9-4781-9570-90d108a907d0.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/51e2ccd2-18d9-4781-9570-90d108a907d0.webp",
         "alt": "Audio-Nice 01 TWS Wireless Earphones | Quad Mic ANC | Touch Control | Premium Sound Quality"
       },
       {
         "type": "image",
-        "src": "/api/media/8951cf56-b922-4cc4-81f9-68e662d8932b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183703/nayvilo/media/8951cf56-b922-4cc4-81f9-68e662d8932b.webp",
         "alt": "Audio-Nice 01 TWS Wireless Earphones | Quad Mic ANC | Touch Control | Premium Sound Quality"
       },
       {
         "type": "image",
-        "src": "/api/media/419c0afc-6b7f-48d8-95e1-c8025f696314.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183702/nayvilo/media/419c0afc-6b7f-48d8-95e1-c8025f696314.webp",
         "alt": "Audio-Nice 01 TWS Wireless Earphones | Quad Mic ANC | Touch Control | Premium Sound Quality"
       }
     ],
@@ -616,16 +616,16 @@ export const products = [
     "category": "Audio",
     "price": 3350,
     "oldPrice": 0,
-    "image": "/api/media/b83c4953-bf97-4c60-8717-5f4ed3b286f9.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183702/nayvilo/media/b83c4953-bf97-4c60-8717-5f4ed3b286f9.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/b83c4953-bf97-4c60-8717-5f4ed3b286f9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183702/nayvilo/media/b83c4953-bf97-4c60-8717-5f4ed3b286f9.webp",
         "alt": "Gaming 444 Premium Quality Wireless Neckband – 50 Hours Playtime & Ergonomic Sports Fit"
       },
       {
         "type": "image",
-        "src": "/api/media/057ffe66-0065-47b2-a200-f9cb88a0bc4a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183702/nayvilo/media/057ffe66-0065-47b2-a200-f9cb88a0bc4a.webp",
         "alt": "Gaming 444 Premium Quality Wireless Neckband – 50 Hours Playtime & Ergonomic Sports Fit"
       }
     ],
@@ -646,11 +646,11 @@ export const products = [
     "category": "Audio",
     "price": 3350,
     "oldPrice": 0,
-    "image": "/api/media/4feb2916-0f12-412f-9c6b-3b393cee8170.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/4feb2916-0f12-412f-9c6b-3b393cee8170.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/4feb2916-0f12-412f-9c6b-3b393cee8170.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/4feb2916-0f12-412f-9c6b-3b393cee8170.webp",
         "alt": "Wireless RGB Soundbar – High-Bass Bluetooth Speaker with Phone Holder"
       }
     ],
@@ -671,11 +671,11 @@ export const products = [
     "category": "Audio",
     "price": 3499,
     "oldPrice": 0,
-    "image": "/api/media/d9c4a8ca-3810-41cd-a676-d6cc8da8d47e.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/d9c4a8ca-3810-41cd-a676-d6cc8da8d47e.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/d9c4a8ca-3810-41cd-a676-d6cc8da8d47e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/d9c4a8ca-3810-41cd-a676-d6cc8da8d47e.webp",
         "alt": "GTS-1887 iKaraoke Box Portable Wireless Speaker – DSP Chip, Funny Sound Effects & RGB LED Lights (3-Inch)"
       }
     ],
@@ -696,11 +696,11 @@ export const products = [
     "category": "Audio",
     "price": 2499,
     "oldPrice": 0,
-    "image": "/api/media/20890e0c-1320-4976-abe4-0deaae00067c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/20890e0c-1320-4976-abe4-0deaae00067c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/20890e0c-1320-4976-abe4-0deaae00067c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/20890e0c-1320-4976-abe4-0deaae00067c.webp",
         "alt": "Metallic Edition Airpods Pro in Metal Case"
       }
     ],
@@ -721,21 +721,21 @@ export const products = [
     "category": "Audio",
     "price": 3899,
     "oldPrice": 4500,
-    "image": "/api/media/5a51dad8-af44-478d-a4ff-0b49ce3c1195.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/5a51dad8-af44-478d-a4ff-0b49ce3c1195.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/5a51dad8-af44-478d-a4ff-0b49ce3c1195.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183701/nayvilo/media/5a51dad8-af44-478d-a4ff-0b49ce3c1195.webp",
         "alt": "Wireless Luminous Gaming Headphones – High-Definition Sound & RGB Light Effect"
       },
       {
         "type": "image",
-        "src": "/api/media/c46d282a-ca04-45c3-ad6f-e1aa2ad014c9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183700/nayvilo/media/c46d282a-ca04-45c3-ad6f-e1aa2ad014c9.webp",
         "alt": "Wireless Luminous Gaming Headphones – High-Definition Sound & RGB Light Effect"
       },
       {
         "type": "image",
-        "src": "/api/media/e487c89b-48e0-47c7-b1df-73188348ec94.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183700/nayvilo/media/e487c89b-48e0-47c7-b1df-73188348ec94.webp",
         "alt": "Wireless Luminous Gaming Headphones – High-Definition Sound & RGB Light Effect"
       }
     ],
@@ -756,16 +756,16 @@ export const products = [
     "category": "Audio",
     "price": 3850,
     "oldPrice": 0,
-    "image": "/api/media/882d4597-07b7-4616-8afd-de962db316c3.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/882d4597-07b7-4616-8afd-de962db316c3.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/882d4597-07b7-4616-8afd-de962db316c3.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/882d4597-07b7-4616-8afd-de962db316c3.webp",
         "alt": "KBroad RGB Wireless Soundbar – High-Bass Bluetooth Subwoofer Speaker"
       },
       {
         "type": "image",
-        "src": "/api/media/9d0e77dc-3fcf-4b93-9541-3a4913ffb78b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/9d0e77dc-3fcf-4b93-9541-3a4913ffb78b.webp",
         "alt": "KBroad RGB Wireless Soundbar – High-Bass Bluetooth Subwoofer Speaker"
       }
     ],
@@ -786,11 +786,11 @@ export const products = [
     "category": "Audio",
     "price": 2250,
     "oldPrice": 0,
-    "image": "/api/media/62c3f1b9-8522-4423-9626-99523f0a9081.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/62c3f1b9-8522-4423-9626-99523f0a9081.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/62c3f1b9-8522-4423-9626-99523f0a9081.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/62c3f1b9-8522-4423-9626-99523f0a9081.webp",
         "alt": "GTS-2008 Portable Karaoke Speaker with Wireless Microphone"
       }
     ],
@@ -811,16 +811,16 @@ export const products = [
     "category": "Audio",
     "price": 33500,
     "oldPrice": 45000,
-    "image": "/api/media/d13d619f-7daa-4f72-a06a-d2c47e9023e4.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/d13d619f-7daa-4f72-a06a-d2c47e9023e4.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/d13d619f-7daa-4f72-a06a-d2c47e9023e4.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/d13d619f-7daa-4f72-a06a-d2c47e9023e4.webp",
         "alt": "Hollyland Lark M2 Combo"
       },
       {
         "type": "image",
-        "src": "/api/media/a64cfd9e-0d1f-4096-87b9-80c25419a8f2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183699/nayvilo/media/a64cfd9e-0d1f-4096-87b9-80c25419a8f2.webp",
         "alt": "Hollyland Lark M2 Combo"
       }
     ],
@@ -841,21 +841,21 @@ export const products = [
     "category": "Audio",
     "price": 12500,
     "oldPrice": 0,
-    "image": "/api/media/ecf52ca8-d0a3-4c41-a419-719773f917b0.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183698/nayvilo/media/ecf52ca8-d0a3-4c41-a419-719773f917b0.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ecf52ca8-d0a3-4c41-a419-719773f917b0.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183698/nayvilo/media/ecf52ca8-d0a3-4c41-a419-719773f917b0.webp",
         "alt": "Lark A1 Microphone Mini Duo"
       },
       {
         "type": "image",
-        "src": "/api/media/93a3410b-fd85-4ec4-866b-15ad43ec74bd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183698/nayvilo/media/93a3410b-fd85-4ec4-866b-15ad43ec74bd.webp",
         "alt": "Lark A1 Microphone Mini Duo"
       },
       {
         "type": "image",
-        "src": "/api/media/800a0dfa-627d-421e-9af3-6a2395fd2e28.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183698/nayvilo/media/800a0dfa-627d-421e-9af3-6a2395fd2e28.webp",
         "alt": "Lark A1 Microphone Mini Duo"
       }
     ],
@@ -876,16 +876,16 @@ export const products = [
     "category": "Audio",
     "price": 24999,
     "oldPrice": 0,
-    "image": "/api/media/824be911-f70e-4e08-a830-859d578e7f60.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183697/nayvilo/media/824be911-f70e-4e08-a830-859d578e7f60.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/824be911-f70e-4e08-a830-859d578e7f60.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183697/nayvilo/media/824be911-f70e-4e08-a830-859d578e7f60.webp",
         "alt": "Hollyland Lark M2 Type C"
       },
       {
         "type": "image",
-        "src": "/api/media/8531d8ec-24fd-49f2-8e3f-c9aa3fdee7f4.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183697/nayvilo/media/8531d8ec-24fd-49f2-8e3f-c9aa3fdee7f4.webp",
         "alt": "Hollyland Lark M2 Type C"
       }
     ],
@@ -906,21 +906,21 @@ export const products = [
     "category": "Audio",
     "price": 15500,
     "oldPrice": 0,
-    "image": "/api/media/ee0e7adf-9efb-4345-97e1-57c0383d43d1.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183697/nayvilo/media/ee0e7adf-9efb-4345-97e1-57c0383d43d1.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ee0e7adf-9efb-4345-97e1-57c0383d43d1.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183697/nayvilo/media/ee0e7adf-9efb-4345-97e1-57c0383d43d1.webp",
         "alt": "Lark A1 Microphone Duo"
       },
       {
         "type": "image",
-        "src": "/api/media/9a7ff2b2-8b7f-499f-aa16-6b9ff2fed29c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183696/nayvilo/media/9a7ff2b2-8b7f-499f-aa16-6b9ff2fed29c.webp",
         "alt": "Lark A1 Microphone Duo"
       },
       {
         "type": "image",
-        "src": "/api/media/aaa36f9d-8d5b-4548-9d8b-fd68c56bab02.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183696/nayvilo/media/aaa36f9d-8d5b-4548-9d8b-fd68c56bab02.webp",
         "alt": "Lark A1 Microphone Duo"
       }
     ],
@@ -941,21 +941,21 @@ export const products = [
     "category": "Audio",
     "price": 19999,
     "oldPrice": 0,
-    "image": "/api/media/66c1bb51-281a-493e-82cd-49cf10ccb347.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183696/nayvilo/media/66c1bb51-281a-493e-82cd-49cf10ccb347.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/66c1bb51-281a-493e-82cd-49cf10ccb347.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183696/nayvilo/media/66c1bb51-281a-493e-82cd-49cf10ccb347.webp",
         "alt": "Lark A1 Microphone Combo"
       },
       {
         "type": "image",
-        "src": "/api/media/d6e689ad-f3e2-48ae-9492-1841f2fd35c3.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183696/nayvilo/media/d6e689ad-f3e2-48ae-9492-1841f2fd35c3.webp",
         "alt": "Lark A1 Microphone Combo"
       },
       {
         "type": "image",
-        "src": "/api/media/276810cd-25d7-4074-8fd6-824db07f1f48.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183695/nayvilo/media/276810cd-25d7-4074-8fd6-824db07f1f48.webp",
         "alt": "Lark A1 Microphone Combo"
       }
     ],
@@ -976,21 +976,21 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 1250,
     "oldPrice": 0,
-    "image": "/api/media/d76b470c-8957-4d5b-bb6c-7ede64787675.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183695/nayvilo/media/d76b470c-8957-4d5b-bb6c-7ede64787675.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/d76b470c-8957-4d5b-bb6c-7ede64787675.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183695/nayvilo/media/d76b470c-8957-4d5b-bb6c-7ede64787675.webp",
         "alt": "2-in-1 Type-C & 8-Pin Lightning to 3.5mm Headphone Jack Adapter | Fast Charging & Audio Converter"
       },
       {
         "type": "image",
-        "src": "/api/media/9ab9a01c-7b6c-469a-8c8b-3c913a5783b9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183695/nayvilo/media/9ab9a01c-7b6c-469a-8c8b-3c913a5783b9.webp",
         "alt": "2-in-1 Type-C & 8-Pin Lightning to 3.5mm Headphone Jack Adapter | Fast Charging & Audio Converter"
       },
       {
         "type": "image",
-        "src": "/api/media/dee3fab2-3c0a-416a-82de-ac9a504ea049.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/dee3fab2-3c0a-416a-82de-ac9a504ea049.webp",
         "alt": "2-in-1 Type-C & 8-Pin Lightning to 3.5mm Headphone Jack Adapter | Fast Charging & Audio Converter"
       }
     ],
@@ -1011,11 +1011,11 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 4000,
     "oldPrice": 0,
-    "image": "/api/media/a65ed68b-7bdf-4e7e-be91-d613f40bff29.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/a65ed68b-7bdf-4e7e-be91-d613f40bff29.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a65ed68b-7bdf-4e7e-be91-d613f40bff29.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/a65ed68b-7bdf-4e7e-be91-d613f40bff29.webp",
         "alt": "3-in-1 Foldable Wireless Charging Stand for Multiple Devices - Compact Travel-Friendly Charging Dock for iphone"
       }
     ],
@@ -1036,21 +1036,21 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 1199,
     "oldPrice": 0,
-    "image": "/api/media/9529edb0-4814-4320-bdae-ce19fec2bc9c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/9529edb0-4814-4320-bdae-ce19fec2bc9c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/9529edb0-4814-4320-bdae-ce19fec2bc9c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/9529edb0-4814-4320-bdae-ce19fec2bc9c.webp",
         "alt": "360° Rotating Desktop Bracket  Universal Stand for Phones & Tablets (4.7\"–13\")"
       },
       {
         "type": "image",
-        "src": "/api/media/487c6de4-9f09-4011-aade-04718faca093.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183694/nayvilo/media/487c6de4-9f09-4011-aade-04718faca093.webp",
         "alt": "360° Rotating Desktop Bracket  Universal Stand for Phones & Tablets (4.7\"–13\")"
       },
       {
         "type": "image",
-        "src": "/api/media/f4363920-27ee-49fd-99eb-a8d85df15367.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183693/nayvilo/media/f4363920-27ee-49fd-99eb-a8d85df15367.webp",
         "alt": "360° Rotating Desktop Bracket  Universal Stand for Phones & Tablets (4.7\"–13\")"
       }
     ],
@@ -1071,16 +1071,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 3150,
     "oldPrice": 0,
-    "image": "/api/media/e363a6f1-f56c-493b-a95e-6d379abb0f52.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183693/nayvilo/media/e363a6f1-f56c-493b-a95e-6d379abb0f52.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/e363a6f1-f56c-493b-a95e-6d379abb0f52.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183693/nayvilo/media/e363a6f1-f56c-493b-a95e-6d379abb0f52.webp",
         "alt": "4-in-1 Retractable Fast Car Charger for Cars"
       },
       {
         "type": "image",
-        "src": "/api/media/d617b686-4789-4ece-ada4-95687c0939b6.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183693/nayvilo/media/d617b686-4789-4ece-ada4-95687c0939b6.webp",
         "alt": "4-in-1 Retractable Fast Car Charger for Cars"
       }
     ],
@@ -1101,16 +1101,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 4650,
     "oldPrice": 0,
-    "image": "/api/media/db566bfe-e92e-4ff5-977b-718e786b1197.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183692/nayvilo/media/db566bfe-e92e-4ff5-977b-718e786b1197.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/db566bfe-e92e-4ff5-977b-718e786b1197.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183692/nayvilo/media/db566bfe-e92e-4ff5-977b-718e786b1197.webp",
         "alt": "5-in-1 Starlight Car Charger – Fast Charging USB-C Ports with Built-in Car Humidifier & Diffuser"
       },
       {
         "type": "image",
-        "src": "/api/media/d3b2d5b1-3414-4a43-818d-e66dd0be7abb.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183692/nayvilo/media/d3b2d5b1-3414-4a43-818d-e66dd0be7abb.webp",
         "alt": "5-in-1 Starlight Car Charger – Fast Charging USB-C Ports with Built-in Car Humidifier & Diffuser"
       }
     ],
@@ -1131,21 +1131,21 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 2450,
     "oldPrice": 0,
-    "image": "/api/media/f9c5b05b-e4d0-45cb-b02f-803519fb6216.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183692/nayvilo/media/f9c5b05b-e4d0-45cb-b02f-803519fb6216.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/f9c5b05b-e4d0-45cb-b02f-803519fb6216.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183692/nayvilo/media/f9c5b05b-e4d0-45cb-b02f-803519fb6216.webp",
         "alt": "Apple 20W / 25W / 40W USB-C Power Adapter for iPhone with Cable"
       },
       {
         "type": "image",
-        "src": "/api/media/3c4a8363-2f8a-416e-9cae-0e0e1989866c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183691/nayvilo/media/3c4a8363-2f8a-416e-9cae-0e0e1989866c.webp",
         "alt": "Apple 20W / 25W / 40W USB-C Power Adapter for iPhone with Cable"
       },
       {
         "type": "image",
-        "src": "/api/media/a486a5ca-0018-4c05-bde5-209efc01bffd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183691/nayvilo/media/a486a5ca-0018-4c05-bde5-209efc01bffd.webp",
         "alt": "Apple 20W / 25W / 40W USB-C Power Adapter for iPhone with Cable"
       }
     ],
@@ -1166,11 +1166,11 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 6000,
     "oldPrice": 0,
-    "image": "/api/media/9092155d-8587-4037-9439-e6af10b9b524.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183690/nayvilo/media/9092155d-8587-4037-9439-e6af10b9b524.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/9092155d-8587-4037-9439-e6af10b9b524.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183690/nayvilo/media/9092155d-8587-4037-9439-e6af10b9b524.webp",
         "alt": "Apple 40W USB-C Fast Power Adapter – Dual Pin High-Speed Wall Charger with NFC"
       }
     ],
@@ -1191,16 +1191,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 3890,
     "oldPrice": 0,
-    "image": "/api/media/f6434209-5cab-4cc7-9a03-2f4e011c0e00.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183690/nayvilo/media/f6434209-5cab-4cc7-9a03-2f4e011c0e00.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/f6434209-5cab-4cc7-9a03-2f4e011c0e00.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183690/nayvilo/media/f6434209-5cab-4cc7-9a03-2f4e011c0e00.webp",
         "alt": "Apple Bass Pro Plus+ Earbuds – Full Options, ANC Touch Control with Lightning port"
       },
       {
         "type": "image",
-        "src": "/api/media/db479af2-23db-432a-861c-e58e188617fe.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183690/nayvilo/media/db479af2-23db-432a-861c-e58e188617fe.webp",
         "alt": "Apple Bass Pro Plus+ Earbuds – Full Options, ANC Touch Control with Lightning port"
       }
     ],
@@ -1221,16 +1221,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 1250,
     "oldPrice": 0,
-    "image": "/api/media/123b3c59-16cb-4c0f-8f4b-e23ed9b54fc7.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/123b3c59-16cb-4c0f-8f4b-e23ed9b54fc7.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/123b3c59-16cb-4c0f-8f4b-e23ed9b54fc7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/123b3c59-16cb-4c0f-8f4b-e23ed9b54fc7.webp",
         "alt": "Apple USB-C/Lightning 60W Braided Charge Cable (1m) – For iPhone, iPad & MacBook"
       },
       {
         "type": "image",
-        "src": "/api/media/1e3cf21a-4143-4ddc-840b-7e3903342272.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/1e3cf21a-4143-4ddc-840b-7e3903342272.webp",
         "alt": "Apple USB-C/Lightning 60W Braided Charge Cable (1m) – For iPhone, iPad & MacBook"
       }
     ],
@@ -1251,16 +1251,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 1750,
     "oldPrice": 0,
-    "image": "/api/media/f54edcbe-e56c-43bc-9266-b7c0bc736f27.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/f54edcbe-e56c-43bc-9266-b7c0bc736f27.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/f54edcbe-e56c-43bc-9266-b7c0bc736f27.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/f54edcbe-e56c-43bc-9266-b7c0bc736f27.webp",
         "alt": "Audionic Jionee 2 Handsfree"
       },
       {
         "type": "image",
-        "src": "/api/media/dc0de14a-d920-4ca4-a09c-7338963e92a3.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183689/nayvilo/media/dc0de14a-d920-4ca4-a09c-7338963e92a3.webp",
         "alt": "Audionic Jionee 2 Handsfree"
       }
     ],
@@ -1281,16 +1281,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 2450,
     "oldPrice": 3500,
-    "image": "/api/media/9bccb12a-b29b-4b44-95c6-f86816aa3b6d.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183688/nayvilo/media/9bccb12a-b29b-4b44-95c6-f86816aa3b6d.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/9bccb12a-b29b-4b44-95c6-f86816aa3b6d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183688/nayvilo/media/9bccb12a-b29b-4b44-95c6-f86816aa3b6d.webp",
         "alt": "Auto Power Off Charging Guard USB-C | Stops Charging at 100% Battery | Battery Protection Adapter"
       },
       {
         "type": "image",
-        "src": "/api/media/7cd4ccb6-03b5-414f-b90b-942570f6a761.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183688/nayvilo/media/7cd4ccb6-03b5-414f-b90b-942570f6a761.webp",
         "alt": "Auto Power Off Charging Guard USB-C | Stops Charging at 100% Battery | Battery Protection Adapter"
       }
     ],
@@ -1311,16 +1311,16 @@ export const products = [
     "category": "Mobile Accessories",
     "price": 2599,
     "oldPrice": 0,
-    "image": "/api/media/81fcdf80-a5c6-424c-a702-cb410e97cfa2.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183688/nayvilo/media/81fcdf80-a5c6-424c-a702-cb410e97cfa2.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/81fcdf80-a5c6-424c-a702-cb410e97cfa2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183688/nayvilo/media/81fcdf80-a5c6-424c-a702-cb410e97cfa2.webp",
         "alt": "FS09 Gaming Phone Cooler | Heat Dissipation Cooling Fan"
       },
       {
         "type": "image",
-        "src": "/api/media/75be602f-ec90-4fad-96bc-8d59276f8ddb.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/75be602f-ec90-4fad-96bc-8d59276f8ddb.webp",
         "alt": "FS09 Gaming Phone Cooler | Heat Dissipation Cooling Fan"
       }
     ],
@@ -1341,11 +1341,11 @@ export const products = [
     "category": "Car Accessories",
     "price": 4250,
     "oldPrice": 0,
-    "image": "/api/media/95e49c25-074c-41b6-b97a-dd6d484a4be9.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/95e49c25-074c-41b6-b97a-dd6d484a4be9.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/95e49c25-074c-41b6-b97a-dd6d484a4be9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/95e49c25-074c-41b6-b97a-dd6d484a4be9.webp",
         "alt": "C10 Wireless Car Holder + Wireless Charger - Smart Automatic Clamping, 360° Rotation, Fast Charging Support"
       }
     ],
@@ -1366,21 +1366,21 @@ export const products = [
     "category": "Car Accessories",
     "price": 4449,
     "oldPrice": 5550,
-    "image": "/api/media/3bf02f0a-ab80-401d-b69a-1b76ccfc4528.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/3bf02f0a-ab80-401d-b69a-1b76ccfc4528.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/3bf02f0a-ab80-401d-b69a-1b76ccfc4528.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/3bf02f0a-ab80-401d-b69a-1b76ccfc4528.webp",
         "alt": "LED Matrix RGB Pixel Panel with Bluetooth Control"
       },
       {
         "type": "image",
-        "src": "/api/media/a06ff7e9-9fc5-4d0d-a36a-daf14e1ce830.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183687/nayvilo/media/a06ff7e9-9fc5-4d0d-a36a-daf14e1ce830.webp",
         "alt": "LED Matrix RGB Pixel Panel with Bluetooth Control"
       },
       {
         "type": "image",
-        "src": "/api/media/d6dae4fa-5b07-4997-87e1-7808776f1465.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183686/nayvilo/media/d6dae4fa-5b07-4997-87e1-7808776f1465.webp",
         "alt": "LED Matrix RGB Pixel Panel with Bluetooth Control"
       }
     ],
@@ -1401,11 +1401,11 @@ export const products = [
     "category": "Power Solutions",
     "price": 3850,
     "oldPrice": 0,
-    "image": "/api/media/a0d16201-7410-45a3-86ea-9fbe7f879884.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183686/nayvilo/media/a0d16201-7410-45a3-86ea-9fbe7f879884.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a0d16201-7410-45a3-86ea-9fbe7f879884.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183686/nayvilo/media/a0d16201-7410-45a3-86ea-9fbe7f879884.webp",
         "alt": "3-in-1 Foldable MagSafe Wireless Charger – Portable Charging Pad for iPhone"
       }
     ],
@@ -1426,16 +1426,16 @@ export const products = [
     "category": "Power Solutions",
     "price": 4250,
     "oldPrice": 0,
-    "image": "/api/media/5bc77545-4225-4ce4-bd01-b79b38d1d9e2.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183685/nayvilo/media/5bc77545-4225-4ce4-bd01-b79b38d1d9e2.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/5bc77545-4225-4ce4-bd01-b79b38d1d9e2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183685/nayvilo/media/5bc77545-4225-4ce4-bd01-b79b38d1d9e2.webp",
         "alt": "iphone Next-Gen 20,000mAh Pocket Power Bank: Fast, Sleek, and Powerful"
       },
       {
         "type": "image",
-        "src": "/api/media/81feb9d2-dafa-4c19-ba93-7750d80ef949.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183685/nayvilo/media/81feb9d2-dafa-4c19-ba93-7750d80ef949.webp",
         "alt": "iphone Next-Gen 20,000mAh Pocket Power Bank: Fast, Sleek, and Powerful"
       }
     ],
@@ -1456,11 +1456,11 @@ export const products = [
     "category": "Power Solutions",
     "price": 3700,
     "oldPrice": 0,
-    "image": "/api/media/e766f4ea-ec2d-4954-b976-019bb5ecf744.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183685/nayvilo/media/e766f4ea-ec2d-4954-b976-019bb5ecf744.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/e766f4ea-ec2d-4954-b976-019bb5ecf744.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183685/nayvilo/media/e766f4ea-ec2d-4954-b976-019bb5ecf744.webp",
         "alt": "JOWAY 10000mAh PD20W & 22.5W Fast Charging Power Bank – Slim & Lightweight Portable Charger"
       }
     ],
@@ -1481,11 +1481,11 @@ export const products = [
     "category": "Power Solutions",
     "price": 3450,
     "oldPrice": 0,
-    "image": "/api/media/f7d3e75e-e4fe-496e-af82-9186931fda38.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183684/nayvilo/media/f7d3e75e-e4fe-496e-af82-9186931fda38.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/f7d3e75e-e4fe-496e-af82-9186931fda38.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183684/nayvilo/media/f7d3e75e-e4fe-496e-af82-9186931fda38.webp",
         "alt": "K05 Anti-Static Power Socket Extension Box – 3 Power Outlets & 6 USB Ports (3.4A Auto-Max, 200CM Cord)"
       }
     ],
@@ -1506,11 +1506,11 @@ export const products = [
     "category": "Power Solutions",
     "price": 4299,
     "oldPrice": 5500,
-    "image": "/api/media/8b569b51-4bd1-4a0a-8da5-4700fbe9cb84.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/8b569b51-4bd1-4a0a-8da5-4700fbe9cb84.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/8b569b51-4bd1-4a0a-8da5-4700fbe9cb84.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/8b569b51-4bd1-4a0a-8da5-4700fbe9cb84.webp",
         "alt": "MOVESPEED 5000mAh Magnetic Wireless Power Bank"
       }
     ],
@@ -1531,21 +1531,21 @@ export const products = [
     "category": "Power Solutions",
     "price": 3150,
     "oldPrice": 0,
-    "image": "/api/media/4ec89f0e-527a-4a59-9a8a-a5e2fae13734.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/4ec89f0e-527a-4a59-9a8a-a5e2fae13734.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/4ec89f0e-527a-4a59-9a8a-a5e2fae13734.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/4ec89f0e-527a-4a59-9a8a-a5e2fae13734.webp",
         "alt": "MOVESPEED Capsule Power Bank 5000mah"
       },
       {
         "type": "image",
-        "src": "/api/media/0e3b1a18-4049-4635-a05d-994eb2c89217.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/0e3b1a18-4049-4635-a05d-994eb2c89217.webp",
         "alt": "MOVESPEED Capsule Power Bank 5000mah"
       },
       {
         "type": "image",
-        "src": "/api/media/68bf2075-7c7d-41fc-b3c6-ca4fd7862551.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183683/nayvilo/media/68bf2075-7c7d-41fc-b3c6-ca4fd7862551.webp",
         "alt": "MOVESPEED Capsule Power Bank 5000mah"
       }
     ],
@@ -1566,21 +1566,21 @@ export const products = [
     "category": "Power Solutions",
     "price": 3699,
     "oldPrice": 4000,
-    "image": "/api/media/11e12217-8f54-4294-ad5f-ed652f2b7a9a.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183682/nayvilo/media/11e12217-8f54-4294-ad5f-ed652f2b7a9a.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/11e12217-8f54-4294-ad5f-ed652f2b7a9a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183682/nayvilo/media/11e12217-8f54-4294-ad5f-ed652f2b7a9a.webp",
         "alt": "NORNSS NS-27 Removable Design 20000mAh Power Bank (22.5W Fast Charging)"
       },
       {
         "type": "image",
-        "src": "/api/media/7e35e611-3755-492d-9812-4a4ec6ee8b06.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183682/nayvilo/media/7e35e611-3755-492d-9812-4a4ec6ee8b06.webp",
         "alt": "NORNSS NS-27 Removable Design 20000mAh Power Bank (22.5W Fast Charging)"
       },
       {
         "type": "image",
-        "src": "/api/media/346e0021-a98b-40b1-ac45-243489a71d41.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183682/nayvilo/media/346e0021-a98b-40b1-ac45-243489a71d41.webp",
         "alt": "NORNSS NS-27 Removable Design 20000mAh Power Bank (22.5W Fast Charging)"
       }
     ],
@@ -1601,21 +1601,21 @@ export const products = [
     "category": "Power Solutions",
     "price": 2950,
     "oldPrice": 3500,
-    "image": "/api/media/9eba26df-6d16-44dc-97b3-51b2f451ba47.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183681/nayvilo/media/9eba26df-6d16-44dc-97b3-51b2f451ba47.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/9eba26df-6d16-44dc-97b3-51b2f451ba47.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183681/nayvilo/media/9eba26df-6d16-44dc-97b3-51b2f451ba47.webp",
         "alt": "NORNSS NS-96 10000mAh Removable Design Power Bank (22.5W Fast Charging)"
       },
       {
         "type": "image",
-        "src": "/api/media/7e53f38b-515d-440d-a5e0-e2b0a875ea59.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183681/nayvilo/media/7e53f38b-515d-440d-a5e0-e2b0a875ea59.webp",
         "alt": "NORNSS NS-96 10000mAh Removable Design Power Bank (22.5W Fast Charging)"
       },
       {
         "type": "image",
-        "src": "/api/media/13a79268-529d-4eca-b2bc-ef5c527668b5.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/13a79268-529d-4eca-b2bc-ef5c527668b5.webp",
         "alt": "NORNSS NS-96 10000mAh Removable Design Power Bank (22.5W Fast Charging)"
       }
     ],
@@ -1636,16 +1636,16 @@ export const products = [
     "category": "Home Decor",
     "price": 19900,
     "oldPrice": 0,
-    "image": "/api/media/95021bd4-fc3e-49b4-b12b-069c8e2df7f1.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/95021bd4-fc3e-49b4-b12b-069c8e2df7f1.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/95021bd4-fc3e-49b4-b12b-069c8e2df7f1.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/95021bd4-fc3e-49b4-b12b-069c8e2df7f1.webp",
         "alt": "24” Smart LED Google TV – Full HD, Ultra Slim Display with Wi-Fi & Built-in Apps"
       },
       {
         "type": "image",
-        "src": "/api/media/a6381367-9b9a-4d7b-b473-d746c704799a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/a6381367-9b9a-4d7b-b473-d746c704799a.webp",
         "alt": "24” Smart LED Google TV – Full HD, Ultra Slim Display with Wi-Fi & Built-in Apps"
       }
     ],
@@ -1666,16 +1666,16 @@ export const products = [
     "category": "Home Decor",
     "price": 14500,
     "oldPrice": 0,
-    "image": "/api/media/c3bb070b-170a-4b25-943f-57d6c27e96dd.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/c3bb070b-170a-4b25-943f-57d6c27e96dd.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/c3bb070b-170a-4b25-943f-57d6c27e96dd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183680/nayvilo/media/c3bb070b-170a-4b25-943f-57d6c27e96dd.webp",
         "alt": "3D Hologram Fan LED Display Fan with Stand (TEKLEK)"
       },
       {
         "type": "image",
-        "src": "/api/media/1cbf973d-73d6-49ff-b981-e823ac50507b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183679/nayvilo/media/1cbf973d-73d6-49ff-b981-e823ac50507b.webp",
         "alt": "3D Hologram Fan LED Display Fan with Stand (TEKLEK)"
       }
     ],
@@ -1696,21 +1696,21 @@ export const products = [
     "category": "Home Decor",
     "price": 4450,
     "oldPrice": 0,
-    "image": "/api/media/954dde44-3a76-4490-8f79-57c9b5e7faa9.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183679/nayvilo/media/954dde44-3a76-4490-8f79-57c9b5e7faa9.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/954dde44-3a76-4490-8f79-57c9b5e7faa9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183679/nayvilo/media/954dde44-3a76-4490-8f79-57c9b5e7faa9.webp",
         "alt": "LED Neon RGB-Magic Smart Strip Light – RGB-IC Flexible Neon Rope Light with Mobile App, Music Sync & Remote Control"
       },
       {
         "type": "image",
-        "src": "/api/media/4eb2148e-e4ff-4776-8a94-922b3e6bf226.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/4eb2148e-e4ff-4776-8a94-922b3e6bf226.webp",
         "alt": "LED Neon RGB-Magic Smart Strip Light – RGB-IC Flexible Neon Rope Light with Mobile App, Music Sync & Remote Control"
       },
       {
         "type": "image",
-        "src": "/api/media/dc5afd15-75b7-4f07-8efa-f72d41e20516.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/dc5afd15-75b7-4f07-8efa-f72d41e20516.webp",
         "alt": "LED Neon RGB-Magic Smart Strip Light – RGB-IC Flexible Neon Rope Light with Mobile App, Music Sync & Remote Control"
       }
     ],
@@ -1731,11 +1731,11 @@ export const products = [
     "category": "Home Decor",
     "price": 3250,
     "oldPrice": 0,
-    "image": "/api/media/18a8fef1-3e13-4705-a7c5-6dfbb9fc41c7.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/18a8fef1-3e13-4705-a7c5-6dfbb9fc41c7.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/18a8fef1-3e13-4705-a7c5-6dfbb9fc41c7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/18a8fef1-3e13-4705-a7c5-6dfbb9fc41c7.webp",
         "alt": "SIGN LED Galaxy Light & MP3 Player & Projector with Remote Control | Cosmic Starry Night Light & Ambience Lamp for Bedroom, Party & Relaxat…"
       }
     ],
@@ -1756,11 +1756,11 @@ export const products = [
     "category": "Home Decor",
     "price": 10500,
     "oldPrice": 0,
-    "image": "/api/media/aee1ceb2-7128-4737-be72-fa0a72353bf3.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/aee1ceb2-7128-4737-be72-fa0a72353bf3.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/aee1ceb2-7128-4737-be72-fa0a72353bf3.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183678/nayvilo/media/aee1ceb2-7128-4737-be72-fa0a72353bf3.webp",
         "alt": "Teklek Programmable LED Board"
       }
     ],
@@ -1781,11 +1781,11 @@ export const products = [
     "category": "Home Decor",
     "price": 19800,
     "oldPrice": 0,
-    "image": "/api/media/505fc9ab-6f5d-4626-8f41-403e207344b7.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/505fc9ab-6f5d-4626-8f41-403e207344b7.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/505fc9ab-6f5d-4626-8f41-403e207344b7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/505fc9ab-6f5d-4626-8f41-403e207344b7.webp",
         "alt": "Teklek RGB Programmable LED Display"
       }
     ],
@@ -1806,21 +1806,21 @@ export const products = [
     "category": "Home Decor",
     "price": 2299,
     "oldPrice": 0,
-    "image": "/api/media/7615c3fc-3a52-4786-a72a-0518141561c5.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/7615c3fc-3a52-4786-a72a-0518141561c5.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/7615c3fc-3a52-4786-a72a-0518141561c5.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/7615c3fc-3a52-4786-a72a-0518141561c5.webp",
         "alt": "USB Dynamic Romantic Water Pattern Light"
       },
       {
         "type": "image",
-        "src": "/api/media/15514262-4f7f-4fd9-b852-3d69ef9e4e3a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/15514262-4f7f-4fd9-b852-3d69ef9e4e3a.webp",
         "alt": "USB Dynamic Romantic Water Pattern Light"
       },
       {
         "type": "image",
-        "src": "/api/media/24679cae-c568-4cc4-ae58-99f196750f8f.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183677/nayvilo/media/24679cae-c568-4cc4-ae58-99f196750f8f.webp",
         "alt": "USB Dynamic Romantic Water Pattern Light"
       }
     ],
@@ -1841,16 +1841,16 @@ export const products = [
     "category": "Toys",
     "price": 2250,
     "oldPrice": 0,
-    "image": "/api/media/1916f9d2-36ed-40e2-8c74-b4a1d25c7b5d.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183676/nayvilo/media/1916f9d2-36ed-40e2-8c74-b4a1d25c7b5d.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/1916f9d2-36ed-40e2-8c74-b4a1d25c7b5d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183676/nayvilo/media/1916f9d2-36ed-40e2-8c74-b4a1d25c7b5d.webp",
         "alt": "Game Box Handheld Retro Video Game Console"
       },
       {
         "type": "image",
-        "src": "/api/media/9addc042-1b2e-42fe-85df-9a0f20f50eaf.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183676/nayvilo/media/9addc042-1b2e-42fe-85df-9a0f20f50eaf.webp",
         "alt": "Game Box Handheld Retro Video Game Console"
       }
     ],
@@ -1871,11 +1871,11 @@ export const products = [
     "category": "Toys",
     "price": 1450,
     "oldPrice": 0,
-    "image": "/api/media/0ef28883-3b21-4f4b-9115-1266328132d8.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183676/nayvilo/media/0ef28883-3b21-4f4b-9115-1266328132d8.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/0ef28883-3b21-4f4b-9115-1266328132d8.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183676/nayvilo/media/0ef28883-3b21-4f4b-9115-1266328132d8.webp",
         "alt": "Kids Hover Soccer Ball – Indoor Air Power Floating Football with LED Lights"
       }
     ],
@@ -1896,16 +1896,16 @@ export const products = [
     "category": "Toys",
     "price": 1000,
     "oldPrice": 0,
-    "image": "/api/media/b2e77ea3-2327-4032-9246-676221c55afc.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183675/nayvilo/media/b2e77ea3-2327-4032-9246-676221c55afc.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/b2e77ea3-2327-4032-9246-676221c55afc.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183675/nayvilo/media/b2e77ea3-2327-4032-9246-676221c55afc.webp",
         "alt": "2-in-1 Smart LCD Drawing Pencil Box &  8.5-Inch Portable LCD Writing Tablet"
       },
       {
         "type": "image",
-        "src": "/api/media/ab2f764c-87c9-4599-b936-976d8bf8f4e9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183675/nayvilo/media/ab2f764c-87c9-4599-b936-976d8bf8f4e9.webp",
         "alt": "2-in-1 Smart LCD Drawing Pencil Box &  8.5-Inch Portable LCD Writing Tablet"
       }
     ],
@@ -1926,21 +1926,21 @@ export const products = [
     "category": "Toys",
     "price": 4850,
     "oldPrice": 0,
-    "image": "/api/media/551fd9e4-25cd-433c-902e-57eb27030f33.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183675/nayvilo/media/551fd9e4-25cd-433c-902e-57eb27030f33.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/551fd9e4-25cd-433c-902e-57eb27030f33.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183675/nayvilo/media/551fd9e4-25cd-433c-902e-57eb27030f33.webp",
         "alt": "2.4G Wireless Game Stick Console - 4K Ultra HD TV Retro Gaming Stick with 2 Controllers⁠"
       },
       {
         "type": "image",
-        "src": "/api/media/f9e02592-83f6-499b-9fd1-efbf4e270b71.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183674/nayvilo/media/f9e02592-83f6-499b-9fd1-efbf4e270b71.webp",
         "alt": "2.4G Wireless Game Stick Console - 4K Ultra HD TV Retro Gaming Stick with 2 Controllers⁠"
       },
       {
         "type": "image",
-        "src": "/api/media/3d9dbf9b-b67e-4f6d-9c79-604a33ada2b0.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183674/nayvilo/media/3d9dbf9b-b67e-4f6d-9c79-604a33ada2b0.webp",
         "alt": "2.4G Wireless Game Stick Console - 4K Ultra HD TV Retro Gaming Stick with 2 Controllers⁠"
       }
     ],
@@ -1961,21 +1961,21 @@ export const products = [
     "category": "Toys",
     "price": 1500,
     "oldPrice": 0,
-    "image": "/api/media/6d9aab75-0dde-4bbe-b6ef-7e96c6400262.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183674/nayvilo/media/6d9aab75-0dde-4bbe-b6ef-7e96c6400262.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/6d9aab75-0dde-4bbe-b6ef-7e96c6400262.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183674/nayvilo/media/6d9aab75-0dde-4bbe-b6ef-7e96c6400262.webp",
         "alt": "Premium 25-36-64 PCS Magnetic Building Blocks Set – Intelligent Construction Toy for Kids Brain Development (Ages 3+)"
       },
       {
         "type": "image",
-        "src": "/api/media/7846b3da-8b63-4934-aa0d-ccaa700a5aa0.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183673/nayvilo/media/7846b3da-8b63-4934-aa0d-ccaa700a5aa0.webp",
         "alt": "Premium 25-36-64 PCS Magnetic Building Blocks Set – Intelligent Construction Toy for Kids Brain Development (Ages 3+)"
       },
       {
         "type": "image",
-        "src": "/api/media/d3d64fc3-d9bf-48d5-8249-49ec12843dbd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183673/nayvilo/media/d3d64fc3-d9bf-48d5-8249-49ec12843dbd.webp",
         "alt": "Premium 25-36-64 PCS Magnetic Building Blocks Set – Intelligent Construction Toy for Kids Brain Development (Ages 3+)"
       }
     ],
@@ -1996,11 +1996,11 @@ export const products = [
     "category": "Toys",
     "price": 3890,
     "oldPrice": 0,
-    "image": "/api/media/7356be67-7053-47da-9180-65c45e875469.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183673/nayvilo/media/7356be67-7053-47da-9180-65c45e875469.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/7356be67-7053-47da-9180-65c45e875469.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183673/nayvilo/media/7356be67-7053-47da-9180-65c45e875469.webp",
         "alt": "The Climbing RC Wall Climbing Car Series – 2.4G Remote Control Gravity Defying Wall Racing Car with LED Lights & USB Quick Charging (Blue)"
       }
     ],
@@ -2021,11 +2021,11 @@ export const products = [
     "category": "Toys",
     "price": 3999,
     "oldPrice": 0,
-    "image": "/api/media/86d2d306-96aa-4967-8c61-917fc3ff69fb.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183672/nayvilo/media/86d2d306-96aa-4967-8c61-917fc3ff69fb.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/86d2d306-96aa-4967-8c61-917fc3ff69fb.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183672/nayvilo/media/86d2d306-96aa-4967-8c61-917fc3ff69fb.webp",
         "alt": "Premium Pink DIY Dollhouse Play Set for Girls (Ages 6+) – Model NO. 462-05"
       }
     ],
@@ -2046,21 +2046,21 @@ export const products = [
     "category": "Toys",
     "price": 2999,
     "oldPrice": 0,
-    "image": "/api/media/c4b0a08a-a3a4-4f8d-966a-e895e238644a.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183672/nayvilo/media/c4b0a08a-a3a4-4f8d-966a-e895e238644a.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/c4b0a08a-a3a4-4f8d-966a-e895e238644a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183672/nayvilo/media/c4b0a08a-a3a4-4f8d-966a-e895e238644a.webp",
         "alt": "3D Pen for Kids | Rechargeable & Heat-Free 3D Drawing"
       },
       {
         "type": "image",
-        "src": "/api/media/e466fa2a-e285-441f-9157-cd486547a51e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/e466fa2a-e285-441f-9157-cd486547a51e.webp",
         "alt": "3D Pen for Kids | Rechargeable & Heat-Free 3D Drawing"
       },
       {
         "type": "image",
-        "src": "/api/media/200dfb37-63fb-48da-8f11-345dbfeb6831.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/200dfb37-63fb-48da-8f11-345dbfeb6831.webp",
         "alt": "3D Pen for Kids | Rechargeable & Heat-Free 3D Drawing"
       }
     ],
@@ -2081,11 +2081,11 @@ export const products = [
     "category": "Toys",
     "price": 1650,
     "oldPrice": 0,
-    "image": "/api/media/9e745752-04a5-4cb7-975a-fa1d6efde491.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/9e745752-04a5-4cb7-975a-fa1d6efde491.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/9e745752-04a5-4cb7-975a-fa1d6efde491.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/9e745752-04a5-4cb7-975a-fa1d6efde491.webp",
         "alt": "HS Express Electric Train Set with Tracks (13 Pieces) – Battery Operated Toy Train for Kids"
       }
     ],
@@ -2106,11 +2106,11 @@ export const products = [
     "category": "Toys",
     "price": 3899,
     "oldPrice": 0,
-    "image": "/api/media/266e7476-7b89-4aa4-90b1-712cf9ad16da.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/266e7476-7b89-4aa4-90b1-712cf9ad16da.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/266e7476-7b89-4aa4-90b1-712cf9ad16da.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183671/nayvilo/media/266e7476-7b89-4aa4-90b1-712cf9ad16da.webp",
         "alt": "Kids Princess Beauty Makeup & Accessory Set – Complete Pretend Play Cosmetic Kit for Girls"
       }
     ],
@@ -2131,16 +2131,16 @@ export const products = [
     "category": "Toys",
     "price": 3500,
     "oldPrice": 0,
-    "image": "/api/media/3d5943e0-7f21-4d4b-b09d-1d14824ae649.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183670/nayvilo/media/3d5943e0-7f21-4d4b-b09d-1d14824ae649.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/3d5943e0-7f21-4d4b-b09d-1d14824ae649.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183670/nayvilo/media/3d5943e0-7f21-4d4b-b09d-1d14824ae649.webp",
         "alt": "Crazy Jumping Car Remote Control Toy with Music & LED Lights for Kids"
       },
       {
         "type": "image",
-        "src": "/api/media/615b4599-5f67-40df-88c1-7d52369fdd8c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183670/nayvilo/media/615b4599-5f67-40df-88c1-7d52369fdd8c.webp",
         "alt": "Crazy Jumping Car Remote Control Toy with Music & LED Lights for Kids"
       }
     ],
@@ -2161,21 +2161,21 @@ export const products = [
     "category": "Toys",
     "price": 3500,
     "oldPrice": 0,
-    "image": "/api/media/a5acdeb0-7cf1-4cf5-a57d-3e37c150ce01.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/a5acdeb0-7cf1-4cf5-a57d-3e37c150ce01.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a5acdeb0-7cf1-4cf5-a57d-3e37c150ce01.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/a5acdeb0-7cf1-4cf5-a57d-3e37c150ce01.webp",
         "alt": "Cyber Truck High-Speed Racing RC Car with Remote Controller & EV Power station"
       },
       {
         "type": "image",
-        "src": "/api/media/44f53775-81e5-4708-bdcb-f018b6506d3d.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/44f53775-81e5-4708-bdcb-f018b6506d3d.webp",
         "alt": "Cyber Truck High-Speed Racing RC Car with Remote Controller & EV Power station"
       },
       {
         "type": "image",
-        "src": "/api/media/2149125a-6291-47f3-89df-d73fe903522c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/2149125a-6291-47f3-89df-d73fe903522c.webp",
         "alt": "Cyber Truck High-Speed Racing RC Car with Remote Controller & EV Power station"
       }
     ],
@@ -2196,11 +2196,11 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 1950,
     "oldPrice": 0,
-    "image": "/api/media/ccd8b56e-7166-4d6a-9b5c-1085810c0a39.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183668/nayvilo/media/ccd8b56e-7166-4d6a-9b5c-1085810c0a39.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ccd8b56e-7166-4d6a-9b5c-1085810c0a39.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183668/nayvilo/media/ccd8b56e-7166-4d6a-9b5c-1085810c0a39.webp",
         "alt": "Lavalier Microphone Extension Handle with High-Density Foam Windscreen⁠"
       }
     ],
@@ -2221,11 +2221,11 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 130000,
     "oldPrice": 0,
-    "image": "/api/media/766b74d9-8136-4d52-9240-85f86b5f4bb9.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/766b74d9-8136-4d52-9240-85f86b5f4bb9.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/766b74d9-8136-4d52-9240-85f86b5f4bb9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183669/nayvilo/media/766b74d9-8136-4d52-9240-85f86b5f4bb9.webp",
         "alt": "Osmo Action 6 Ultra 8K Camera - Standard Pack"
       }
     ],
@@ -2246,16 +2246,16 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 5950,
     "oldPrice": 0,
-    "image": "/api/media/88dc6cb7-4bdd-4fef-a69d-7195ae88740e.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183668/nayvilo/media/88dc6cb7-4bdd-4fef-a69d-7195ae88740e.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/88dc6cb7-4bdd-4fef-a69d-7195ae88740e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183668/nayvilo/media/88dc6cb7-4bdd-4fef-a69d-7195ae88740e.webp",
         "alt": "PK-460 LED Soft Ring Light With Tripod Stand, 3 Phone Holders & Remote Control (Complete Studio Setup)"
       },
       {
         "type": "image",
-        "src": "/api/media/9b6f3f1b-3e34-45e9-b6d2-f2162fbd1afe.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183668/nayvilo/media/9b6f3f1b-3e34-45e9-b6d2-f2162fbd1afe.webp",
         "alt": "PK-460 LED Soft Ring Light With Tripod Stand, 3 Phone Holders & Remote Control (Complete Studio Setup)"
       }
     ],
@@ -2276,16 +2276,16 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 6500,
     "oldPrice": 0,
-    "image": "/api/media/a48cb02f-9e36-44d3-91b6-66e58e78929b.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183667/nayvilo/media/a48cb02f-9e36-44d3-91b6-66e58e78929b.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a48cb02f-9e36-44d3-91b6-66e58e78929b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183667/nayvilo/media/a48cb02f-9e36-44d3-91b6-66e58e78929b.webp",
         "alt": "Plokama VM-80 Pro Wireless Lavalier Microphone Set with Charging Case"
       },
       {
         "type": "image",
-        "src": "/api/media/9ed97dbe-dcfe-4dcc-99ec-4f773cc0b3a7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183667/nayvilo/media/9ed97dbe-dcfe-4dcc-99ec-4f773cc0b3a7.webp",
         "alt": "Plokama VM-80 Pro Wireless Lavalier Microphone Set with Charging Case"
       }
     ],
@@ -2306,21 +2306,21 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 2500,
     "oldPrice": 0,
-    "image": "/api/media/a106a3be-5641-44c5-89b2-7a1667108e4c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183667/nayvilo/media/a106a3be-5641-44c5-89b2-7a1667108e4c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a106a3be-5641-44c5-89b2-7a1667108e4c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183667/nayvilo/media/a106a3be-5641-44c5-89b2-7a1667108e4c.webp",
         "alt": "Plokama Wireless Lavalier Microphone - 2.4G Dual Mic System for Vlogging,"
       },
       {
         "type": "image",
-        "src": "/api/media/71ba202e-a8f5-40b3-aaa9-0d5eca9db218.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183666/nayvilo/media/71ba202e-a8f5-40b3-aaa9-0d5eca9db218.webp",
         "alt": "Plokama Wireless Lavalier Microphone - 2.4G Dual Mic System for Vlogging,"
       },
       {
         "type": "image",
-        "src": "/api/media/15c71648-4b08-4e69-99db-bc78bcaafa31.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183666/nayvilo/media/15c71648-4b08-4e69-99db-bc78bcaafa31.webp",
         "alt": "Plokama Wireless Lavalier Microphone - 2.4G Dual Mic System for Vlogging,"
       }
     ],
@@ -2341,16 +2341,16 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 5450,
     "oldPrice": 0,
-    "image": "/api/media/2af8231a-bc99-4b86-b365-7294e28fc17e.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183666/nayvilo/media/2af8231a-bc99-4b86-b365-7294e28fc17e.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/2af8231a-bc99-4b86-b365-7294e28fc17e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183666/nayvilo/media/2af8231a-bc99-4b86-b365-7294e28fc17e.webp",
         "alt": "PLOKAMA WM-60 Remote Lavalier Microphone & Handheld Stick"
       },
       {
         "type": "image",
-        "src": "/api/media/50bb62e6-863f-4af5-9c60-853d2f3ed7fd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/50bb62e6-863f-4af5-9c60-853d2f3ed7fd.webp",
         "alt": "PLOKAMA WM-60 Remote Lavalier Microphone & Handheld Stick"
       }
     ],
@@ -2371,16 +2371,16 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 4850,
     "oldPrice": 0,
-    "image": "/api/media/6ab0a676-0c47-4fdd-8018-47e124465f07.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/6ab0a676-0c47-4fdd-8018-47e124465f07.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/6ab0a676-0c47-4fdd-8018-47e124465f07.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/6ab0a676-0c47-4fdd-8018-47e124465f07.webp",
         "alt": "Professional 2.4G Wireless Lavalier Microphone with Digital LED Charging Case"
       },
       {
         "type": "image",
-        "src": "/api/media/6dcb393a-3c80-47b2-b0d6-a70472a51e08.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/6dcb393a-3c80-47b2-b0d6-a70472a51e08.webp",
         "alt": "Professional 2.4G Wireless Lavalier Microphone with Digital LED Charging Case"
       }
     ],
@@ -2401,11 +2401,11 @@ export const products = [
     "category": "Vlogging Setup",
     "price": 5950,
     "oldPrice": 0,
-    "image": "/api/media/ad78f09f-178e-4615-9b52-f558211096f5.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/ad78f09f-178e-4615-9b52-f558211096f5.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ad78f09f-178e-4615-9b52-f558211096f5.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183665/nayvilo/media/ad78f09f-178e-4615-9b52-f558211096f5.webp",
         "alt": "Ulanzi MT-44 Extendable Vlog Tripod & Selfie Stick"
       }
     ],
@@ -2426,11 +2426,11 @@ export const products = [
     "category": "Mounts & Stands",
     "price": 4500,
     "oldPrice": 0,
-    "image": "/api/media/e3fdac28-4e29-4343-8466-5edf2da87667.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183664/nayvilo/media/e3fdac28-4e29-4343-8466-5edf2da87667.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/e3fdac28-4e29-4343-8466-5edf2da87667.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183664/nayvilo/media/e3fdac28-4e29-4343-8466-5edf2da87667.webp",
         "alt": "Plokama 150CM 360° Camera & Smartphone Tripod Stand"
       }
     ],
@@ -2451,21 +2451,21 @@ export const products = [
     "category": "Mounts & Stands",
     "price": 2750,
     "oldPrice": 0,
-    "image": "/api/media/ef426d83-718d-4be7-856a-1bbce71ca805.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183664/nayvilo/media/ef426d83-718d-4be7-856a-1bbce71ca805.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ef426d83-718d-4be7-856a-1bbce71ca805.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183664/nayvilo/media/ef426d83-718d-4be7-856a-1bbce71ca805.webp",
         "alt": "Plokama DT-80 Heavy-Duty Tabletop Lifting Bracket Height-Adjustable Phone & Stand"
       },
       {
         "type": "image",
-        "src": "/api/media/87db6eed-ba95-44a8-a6f4-2cf9b771a447.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183664/nayvilo/media/87db6eed-ba95-44a8-a6f4-2cf9b771a447.webp",
         "alt": "Plokama DT-80 Heavy-Duty Tabletop Lifting Bracket Height-Adjustable Phone & Stand"
       },
       {
         "type": "image",
-        "src": "/api/media/018f38fb-e2dd-462a-96f6-7730f25489e7.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183663/nayvilo/media/018f38fb-e2dd-462a-96f6-7730f25489e7.webp",
         "alt": "Plokama DT-80 Heavy-Duty Tabletop Lifting Bracket Height-Adjustable Phone & Stand"
       }
     ],
@@ -2486,11 +2486,11 @@ export const products = [
     "category": "Mounts & Stands",
     "price": 4299,
     "oldPrice": 0,
-    "image": "/api/media/df50b638-c673-4f56-a218-9c77019309c1.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183663/nayvilo/media/df50b638-c673-4f56-a218-9c77019309c1.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/df50b638-c673-4f56-a218-9c77019309c1.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183663/nayvilo/media/df50b638-c673-4f56-a218-9c77019309c1.webp",
         "alt": "PLOKAMA PK-996 Professional Mobile & Camera Tripod Stand with Remote Control and Carrying Bag"
       }
     ],
@@ -2511,16 +2511,16 @@ export const products = [
     "category": "Mounts & Stands",
     "price": 1499,
     "oldPrice": 0,
-    "image": "/api/media/2bba57d7-a439-4fc9-bf08-fadaa59c4127.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183663/nayvilo/media/2bba57d7-a439-4fc9-bf08-fadaa59c4127.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/2bba57d7-a439-4fc9-bf08-fadaa59c4127.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183663/nayvilo/media/2bba57d7-a439-4fc9-bf08-fadaa59c4127.webp",
         "alt": "Premium One-Touch Automatic Lock Mobile Holder for Bikes & Motorcycles"
       },
       {
         "type": "image",
-        "src": "/api/media/e261f01b-fcaf-4ab5-8d78-cbf826554f94.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183662/nayvilo/media/e261f01b-fcaf-4ab5-8d78-cbf826554f94.webp",
         "alt": "Premium One-Touch Automatic Lock Mobile Holder for Bikes & Motorcycles"
       }
     ],
@@ -2541,11 +2541,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 4000,
     "oldPrice": 0,
-    "image": "/api/media/640800ac-dff6-4999-be3a-2a8a5cc8299a.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183662/nayvilo/media/640800ac-dff6-4999-be3a-2a8a5cc8299a.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/640800ac-dff6-4999-be3a-2a8a5cc8299a.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183662/nayvilo/media/640800ac-dff6-4999-be3a-2a8a5cc8299a.webp",
         "alt": "Banda C500 2.4G Wireless Keyboard & Mouse Combo – Built-in Tablet & Mobile Stand Slot"
       }
     ],
@@ -2566,11 +2566,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 1450,
     "oldPrice": 0,
-    "image": "/api/media/259a7ad6-118e-4ac4-a35a-76b7e9ae64fd.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183662/nayvilo/media/259a7ad6-118e-4ac4-a35a-76b7e9ae64fd.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/259a7ad6-118e-4ac4-a35a-76b7e9ae64fd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183662/nayvilo/media/259a7ad6-118e-4ac4-a35a-76b7e9ae64fd.webp",
         "alt": "4-Port USB 3.0 High-Speed Hub"
       }
     ],
@@ -2591,11 +2591,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 3250,
     "oldPrice": 0,
-    "image": "/api/media/d8b30673-ce8b-4cc0-bca0-f2f797f82642.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/d8b30673-ce8b-4cc0-bca0-f2f797f82642.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/d8b30673-ce8b-4cc0-bca0-f2f797f82642.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/d8b30673-ce8b-4cc0-bca0-f2f797f82642.webp",
         "alt": "Gaming Combo: RGB Mechanical Feel Keyboard Aur Gaming Mouse"
       }
     ],
@@ -2616,11 +2616,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 2500,
     "oldPrice": 0,
-    "image": "/api/media/dd5d7937-fe58-452f-a86b-0db45b7ff853.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/dd5d7937-fe58-452f-a86b-0db45b7ff853.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/dd5d7937-fe58-452f-a86b-0db45b7ff853.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/dd5d7937-fe58-452f-a86b-0db45b7ff853.webp",
         "alt": "HP K1600 Wired USB Keyboard"
       }
     ],
@@ -2641,16 +2641,16 @@ export const products = [
     "category": "PC & Laptop",
     "price": 3450,
     "oldPrice": 0,
-    "image": "/api/media/323b73b6-1bbb-4881-8097-643c22a25440.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/323b73b6-1bbb-4881-8097-643c22a25440.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/323b73b6-1bbb-4881-8097-643c22a25440.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183661/nayvilo/media/323b73b6-1bbb-4881-8097-643c22a25440.webp",
         "alt": "Laptop Cooler Pad – Heavy Duty Cooling Stand"
       },
       {
         "type": "image",
-        "src": "/api/media/2eca918e-2c15-417a-b1d0-6a1b39b703ff.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183660/nayvilo/media/2eca918e-2c15-417a-b1d0-6a1b39b703ff.webp",
         "alt": "Laptop Cooler Pad – Heavy Duty Cooling Stand"
       }
     ],
@@ -2671,11 +2671,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 1950,
     "oldPrice": 0,
-    "image": "/api/media/0a3a24f8-43ad-4b12-b8f6-7a509cce08b9.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183660/nayvilo/media/0a3a24f8-43ad-4b12-b8f6-7a509cce08b9.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/0a3a24f8-43ad-4b12-b8f6-7a509cce08b9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183660/nayvilo/media/0a3a24f8-43ad-4b12-b8f6-7a509cce08b9.webp",
         "alt": "Prime USB Powered 2.0 Multimedia Speakers"
       }
     ],
@@ -2696,16 +2696,16 @@ export const products = [
     "category": "PC & Laptop",
     "price": 1250,
     "oldPrice": 0,
-    "image": "/api/media/01119cc1-9357-460b-97f5-bc096fd71b98.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183660/nayvilo/media/01119cc1-9357-460b-97f5-bc096fd71b98.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/01119cc1-9357-460b-97f5-bc096fd71b98.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183660/nayvilo/media/01119cc1-9357-460b-97f5-bc096fd71b98.webp",
         "alt": "Alfa High-Speed Wireless-N USB Wi-Fi Adapter"
       },
       {
         "type": "image",
-        "src": "/api/media/c49787bf-54c9-4b17-8d98-dca8f75d81b8.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183659/nayvilo/media/c49787bf-54c9-4b17-8d98-dca8f75d81b8.webp",
         "alt": "Alfa High-Speed Wireless-N USB Wi-Fi Adapter"
       }
     ],
@@ -2726,11 +2726,11 @@ export const products = [
     "category": "PC & Laptop",
     "price": 1450,
     "oldPrice": 0,
-    "image": "/api/media/535cee94-000b-4d5d-9e0f-5c6af76218dd.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183659/nayvilo/media/535cee94-000b-4d5d-9e0f-5c6af76218dd.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/535cee94-000b-4d5d-9e0f-5c6af76218dd.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183659/nayvilo/media/535cee94-000b-4d5d-9e0f-5c6af76218dd.webp",
         "alt": "iTech 4K UHD HDMI Cable 2.0v (1.5-3-5 Meters) – High-Speed Premium HDTV Cable"
       }
     ],
@@ -2751,16 +2751,16 @@ export const products = [
     "category": "PC & Laptop",
     "price": 1500,
     "oldPrice": 0,
-    "image": "/api/media/2cd34783-05db-46ca-b091-09e24932de23.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183659/nayvilo/media/2cd34783-05db-46ca-b091-09e24932de23.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/2cd34783-05db-46ca-b091-09e24932de23.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183659/nayvilo/media/2cd34783-05db-46ca-b091-09e24932de23.webp",
         "alt": "HP Gaming Mouse m160 – RGB Lighting, 4 Buttons, Optical Sensor (1000/1600 DPI)"
       },
       {
         "type": "image",
-        "src": "/api/media/dba52bad-eebe-494c-83f1-b95405ac5af3.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183658/nayvilo/media/dba52bad-eebe-494c-83f1-b95405ac5af3.webp",
         "alt": "HP Gaming Mouse m160 – RGB Lighting, 4 Buttons, Optical Sensor (1000/1600 DPI)"
       }
     ],
@@ -2781,21 +2781,21 @@ export const products = [
     "category": "POS Package",
     "price": 9500,
     "oldPrice": 0,
-    "image": "/api/media/fbd56bbb-677e-4304-bf18-9308b1a2dc28.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183658/nayvilo/media/fbd56bbb-677e-4304-bf18-9308b1a2dc28.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/fbd56bbb-677e-4304-bf18-9308b1a2dc28.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183658/nayvilo/media/fbd56bbb-677e-4304-bf18-9308b1a2dc28.webp",
         "alt": "Thermal Mobile Printer + Android POS App + Tutorial Video"
       },
       {
         "type": "image",
-        "src": "/api/media/ca9414bc-73f7-4979-a1bc-56379e61792b.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183657/nayvilo/media/ca9414bc-73f7-4979-a1bc-56379e61792b.webp",
         "alt": "Thermal Mobile Printer + Android POS App + Tutorial Video"
       },
       {
         "type": "image",
-        "src": "/api/media/a5784ee2-d9cf-4c2d-a69f-495ffb8786e2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183657/nayvilo/media/a5784ee2-d9cf-4c2d-a69f-495ffb8786e2.webp",
         "alt": "Thermal Mobile Printer + Android POS App + Tutorial Video"
       }
     ],
@@ -2816,11 +2816,11 @@ export const products = [
     "category": "POS Package",
     "price": 1500,
     "oldPrice": 0,
-    "image": "/api/media/03844b40-0c98-4bc6-971b-31d236b8303c.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183656/nayvilo/media/03844b40-0c98-4bc6-971b-31d236b8303c.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/03844b40-0c98-4bc6-971b-31d236b8303c.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183656/nayvilo/media/03844b40-0c98-4bc6-971b-31d236b8303c.webp",
         "alt": "58mm Thermal Paper Rolls (Pack of 10)"
       }
     ],
@@ -2841,21 +2841,21 @@ export const products = [
     "category": "Gadgets",
     "price": 999,
     "oldPrice": 0,
-    "image": "/api/media/1ee766ca-056e-45a2-9df6-c0c157171200.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183656/nayvilo/media/1ee766ca-056e-45a2-9df6-c0c157171200.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/1ee766ca-056e-45a2-9df6-c0c157171200.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183656/nayvilo/media/1ee766ca-056e-45a2-9df6-c0c157171200.webp",
         "alt": "Premium USB to DC Power Boost Cable (5V to 9V / 12V Step-Up Converter) – 1A Output For Wi-Fi Routers, PTZ Cameras & LED Lights"
       },
       {
         "type": "image",
-        "src": "/api/media/0671ec34-7ad6-4a75-844d-98b2c85d1d0f.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183655/nayvilo/media/0671ec34-7ad6-4a75-844d-98b2c85d1d0f.webp",
         "alt": "Premium USB to DC Power Boost Cable (5V to 9V / 12V Step-Up Converter) – 1A Output For Wi-Fi Routers, PTZ Cameras & LED Lights"
       },
       {
         "type": "image",
-        "src": "/api/media/eb6a94fb-9a7f-4265-9420-21a9ceb7f765.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183655/nayvilo/media/eb6a94fb-9a7f-4265-9420-21a9ceb7f765.webp",
         "alt": "Premium USB to DC Power Boost Cable (5V to 9V / 12V Step-Up Converter) – 1A Output For Wi-Fi Routers, PTZ Cameras & LED Lights"
       }
     ],
@@ -2876,16 +2876,16 @@ export const products = [
     "category": "Gadgets",
     "price": 2999,
     "oldPrice": 0,
-    "image": "/api/media/93ecc03c-7e20-487c-8eaa-cc94485be9f6.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183655/nayvilo/media/93ecc03c-7e20-487c-8eaa-cc94485be9f6.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/93ecc03c-7e20-487c-8eaa-cc94485be9f6.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183655/nayvilo/media/93ecc03c-7e20-487c-8eaa-cc94485be9f6.webp",
         "alt": "MEMO Magnetic Mobile Phone Coolers Series (CX07, CX08, CX12, CX15, CX16) – Instant Cooling & RGB Gaming Fan for All Smartphones"
       },
       {
         "type": "image",
-        "src": "/api/media/c4d3257a-1ec7-4fb7-b524-69b04b53688e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183655/nayvilo/media/c4d3257a-1ec7-4fb7-b524-69b04b53688e.webp",
         "alt": "MEMO Magnetic Mobile Phone Coolers Series (CX07, CX08, CX12, CX15, CX16) – Instant Cooling & RGB Gaming Fan for All Smartphones"
       }
     ],
@@ -2906,16 +2906,16 @@ export const products = [
     "category": "Gadgets",
     "price": 1450,
     "oldPrice": 0,
-    "image": "/api/media/a31343ec-faa5-44f8-aaae-b6bc3c448768.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183654/nayvilo/media/a31343ec-faa5-44f8-aaae-b6bc3c448768.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/a31343ec-faa5-44f8-aaae-b6bc3c448768.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183654/nayvilo/media/a31343ec-faa5-44f8-aaae-b6bc3c448768.webp",
         "alt": "SpeedX MX3 2.4G Wireless Air Fly Mouse & Mini Keyboard with Motion Sensor & IR Learning – Black"
       },
       {
         "type": "image",
-        "src": "/api/media/c5e5c421-7bd8-4962-8158-b281b6a257ef.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183653/nayvilo/media/c5e5c421-7bd8-4962-8158-b281b6a257ef.webp",
         "alt": "SpeedX MX3 2.4G Wireless Air Fly Mouse & Mini Keyboard with Motion Sensor & IR Learning – Black"
       }
     ],
@@ -2936,16 +2936,16 @@ export const products = [
     "category": "Gadgets",
     "price": 1490,
     "oldPrice": 0,
-    "image": "/api/media/c5f2fd2c-4314-409d-b4e7-12d533664495.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183653/nayvilo/media/c5f2fd2c-4314-409d-b4e7-12d533664495.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/c5f2fd2c-4314-409d-b4e7-12d533664495.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183653/nayvilo/media/c5f2fd2c-4314-409d-b4e7-12d533664495.webp",
         "alt": "Cosmic 3D Moon Crystal Ball LED Night Light"
       },
       {
         "type": "image",
-        "src": "/api/media/fb7b934d-02a6-4a91-8998-3415a58243c9.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183653/nayvilo/media/fb7b934d-02a6-4a91-8998-3415a58243c9.webp",
         "alt": "Cosmic 3D Moon Crystal Ball LED Night Light"
       }
     ],
@@ -2966,11 +2966,11 @@ export const products = [
     "category": "Gadgets",
     "price": 3850,
     "oldPrice": 0,
-    "image": "/api/media/3af9179d-d7d4-4c94-9ad7-ac42f4c6fee6.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/3af9179d-d7d4-4c94-9ad7-ac42f4c6fee6.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/3af9179d-d7d4-4c94-9ad7-ac42f4c6fee6.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/3af9179d-d7d4-4c94-9ad7-ac42f4c6fee6.webp",
         "alt": "360° Smart E27 Light Bulb Security Camera – Wireless WiFi Outdoor & Indoor Surveillance Camera with Night Vision, 2-Way Audio & Motion Dete…"
       }
     ],
@@ -2991,11 +2991,11 @@ export const products = [
     "category": "Gadgets",
     "price": 5950,
     "oldPrice": 0,
-    "image": "/api/media/ec7ce71f-a046-4df2-a17c-0b18f3c38b2f.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/ec7ce71f-a046-4df2-a17c-0b18f3c38b2f.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/ec7ce71f-a046-4df2-a17c-0b18f3c38b2f.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/ec7ce71f-a046-4df2-a17c-0b18f3c38b2f.webp",
         "alt": "Tenda A9 Universal Range Extender – 300Mbps Wi-Fi Signal Booster & Repeater"
       }
     ],
@@ -3016,16 +3016,16 @@ export const products = [
     "category": "Gadgets",
     "price": 2399,
     "oldPrice": 0,
-    "image": "/api/media/d6450438-21f9-4987-9eb3-508357607606.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/d6450438-21f9-4987-9eb3-508357607606.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/d6450438-21f9-4987-9eb3-508357607606.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183652/nayvilo/media/d6450438-21f9-4987-9eb3-508357607606.webp",
         "alt": "Rechargeable Motion Sensor Smart Night Light - Magnetic Wireless LED Wall Lamp for Bedroom, Stairs & Wardrobe"
       },
       {
         "type": "image",
-        "src": "/api/media/8198f2f7-a933-421c-81e6-4d5ba8a1691f.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183651/nayvilo/media/8198f2f7-a933-421c-81e6-4d5ba8a1691f.webp",
         "alt": "Rechargeable Motion Sensor Smart Night Light - Magnetic Wireless LED Wall Lamp for Bedroom, Stairs & Wardrobe"
       }
     ],
@@ -3046,16 +3046,16 @@ export const products = [
     "category": "Gadgets",
     "price": 1450,
     "oldPrice": 0,
-    "image": "/api/media/411a88c1-be00-4dba-a8ea-31e60fc41a3e.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183651/nayvilo/media/411a88c1-be00-4dba-a8ea-31e60fc41a3e.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/411a88c1-be00-4dba-a8ea-31e60fc41a3e.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183651/nayvilo/media/411a88c1-be00-4dba-a8ea-31e60fc41a3e.webp",
         "alt": "High-Speed Rechargeable Handheld Fan"
       },
       {
         "type": "image",
-        "src": "/api/media/32b1ccb3-2e96-4944-842a-395a99152667.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183651/nayvilo/media/32b1ccb3-2e96-4944-842a-395a99152667.webp",
         "alt": "High-Speed Rechargeable Handheld Fan"
       }
     ],
@@ -3076,21 +3076,21 @@ export const products = [
     "category": "Gadgets",
     "price": 3850,
     "oldPrice": 0,
-    "image": "/api/media/6abd1e60-0ba0-4ad5-bee7-5aa825be7df2.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183649/nayvilo/media/6abd1e60-0ba0-4ad5-bee7-5aa825be7df2.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/6abd1e60-0ba0-4ad5-bee7-5aa825be7df2.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183649/nayvilo/media/6abd1e60-0ba0-4ad5-bee7-5aa825be7df2.webp",
         "alt": "Plokama LIVE Professional Photography Videography LED Lights"
       },
       {
         "type": "image",
-        "src": "/api/media/838aeb9b-2ab1-469d-a1b8-e8743742e374.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183650/nayvilo/media/838aeb9b-2ab1-469d-a1b8-e8743742e374.webp",
         "alt": "Plokama LIVE Professional Photography Videography LED Lights"
       },
       {
         "type": "image",
-        "src": "/api/media/bee35797-a244-477f-990f-e26b4bcb8106.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183649/nayvilo/media/bee35797-a244-477f-990f-e26b4bcb8106.webp",
         "alt": "Plokama LIVE Professional Photography Videography LED Lights"
       }
     ],
@@ -3111,11 +3111,11 @@ export const products = [
     "category": "Gadgets",
     "price": 6999,
     "oldPrice": 0,
-    "image": "/api/media/fc19f7aa-1864-4413-915f-96798b1de1ea.webp",
+    "image": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183650/nayvilo/media/fc19f7aa-1864-4413-915f-96798b1de1ea.webp",
     "media": [
       {
         "type": "image",
-        "src": "/api/media/fc19f7aa-1864-4413-915f-96798b1de1ea.webp",
+        "src": "https://res.cloudinary.com/p76rvfxz/image/upload/v1790183650/nayvilo/media/fc19f7aa-1864-4413-915f-96798b1de1ea.webp",
         "alt": "Mini Portable LED Baby Projector"
       }
     ],

@@ -26,6 +26,7 @@ import {
   LogOut,
 } from "lucide-react";
 import { useStore } from "@/components/provider";
+import { Dropdown } from "@/components/dropdown";
 import { supabase, api } from "@/lib/supabase";
 import {
   type Product,
@@ -325,25 +326,25 @@ export default function Admin() {
                               </td>
                               <td>{money(o.total)}</td>
                               <td>
-                                <select
-                                  aria-label={"Status for " + o.id}
+                                <Dropdown
+                                  ariaLabel={"Status for " + o.id}
                                   disabled={o.status === "Cancelled"}
                                   value={o.status}
-                                  onChange={(e) =>
-                                    updateOrder(o.id, e.target.value)
+                                  onChange={(status) =>
+                                    updateOrder(o.id, status)
                                   }
                                   className="status-select"
-                                >
-                                  {[
+                                  options={[
                                     "Confirmed",
                                     "Packed",
                                     "Shipped",
                                     "Delivered",
                                     "Cancelled",
-                                  ].map((s) => (
-                                    <option key={s}>{s}</option>
-                                  ))}
-                                </select>
+                                  ].map((status) => ({
+                                    value: status,
+                                    label: status,
+                                  }))}
+                                />
                               </td>
                             </tr>
                           ))}
