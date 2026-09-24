@@ -76,7 +76,7 @@ export function MediaUpload({
                 }
                 const body = new FormData();
                 body.append("file", file);
-                const r = await fetch("/api/admin/uploads", {
+                const r = await fetch((process.env.NEXT_PUBLIC_API_URL || "") + "/api/admin/uploads", {
                   method: "POST",
                   headers: {
                     Authorization: `Bearer ${session?.access_token || ""}`,

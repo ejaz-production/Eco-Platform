@@ -1,0 +1,24 @@
+name: API availability check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+permissions: {}
+concurrency:
+  group: api-health
+  cancel-in-progress: true
+jobs:
+  health:
+    if: vars.RENDER_HEALTH_URL != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check Render health endpoint
+        env:
+          HEALTH_URL: ${{ vars.RENDER_HEALTH_URL }}
+        run: |
+          case "$HEALTH_URL" in
+            https://*.onrender.com/api/health) ;;
+            *) echo "Set RENDER_HEALTH_URL to the Render HTTPS health endpoint"; exit 1 ;;
+          esac
+          curl --fail --silent --show-error --retry 2 --max-time 70 "$HEALTH_URL"

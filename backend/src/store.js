@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile, rename } from "node:fs/promises";
 import { products, initialBanners } from "./catalog.js";
+import { durable, snapshot, changeSnapshot } from "./persistence.js";
 const dir = new URL("../data/", import.meta.url),
   path = new URL("store.json", dir);
 let state;
@@ -15,8 +16,13 @@ try {
 }
 let queue = Promise.resolve();
 export const store = state;
+const seed = { products: structuredClone(products), orders: [], banners: initialBanners };
+export async function readStore() {
+  return durable ? (await snapshot("catalog", seed)).data : store;
+}
 export function mutate(fn) {
   const job = queue.then(async () => {
+    if (durable) return (await changeSnapshot("catalog", seed, fn)).result;
     const draft = structuredClone(state);
     const result = fn(draft);
     await mkdir(dir, { recursive: true });

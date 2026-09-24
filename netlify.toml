@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build -w frontend"
+  publish = "frontend/.next"
+
+[build.environment]
+  NODE_VERSION = "22.16.0"
+
+# Set Package directory = frontend in Netlify. Base directory stays repository root.
+# API_URL, NEXT_PUBLIC_API_URL and both public Supabase variables are set in the UI.
