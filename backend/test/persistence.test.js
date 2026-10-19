@@ -25,3 +25,11 @@ test("durable updates retry a conflicting stock revision without overwriting ano
   assert.equal(reads, 2);
   assert.equal(writes, 2);
 });
+
+test("database outages return a service failure, and readiness checks the database", async t => {
+  t.mock.method(globalThis, "fetch", async () => { throw new TypeError("fetch failed"); });
+  const { snapshot, checkStorage, StoreUnavailableError } = await import("../src/persistence.js");
+  for (const run of [() => snapshot("catalog", {}), checkStorage]) {
+    await assert.rejects(run, error => error instanceof StoreUnavailableError && error.status === 503);
+  }
+});

@@ -6,6 +6,7 @@ import { createClient } from "@supabase/supabase-js";
 import { verifyCredentials } from "@supabase/server/core";
 import { randomUUID } from "node:crypto";
 import { readStore, mutate } from "./store.js";
+import { checkStorage, StoreUnavailableError } from "./persistence.js";
 import { orderSchema, priceOrder } from "./validation.js";
 import { z } from "zod";
 import { productSchema, bannersSchema } from "./content.js";
@@ -77,6 +78,10 @@ app.post("/api/admin/products", auth, admin, async (req, res) => {
 app.get("/api/health", (_, res) =>
   res.json({ status: "ok", mode: "demo-catalog", storage: process.env.STORAGE_DRIVER || "local-json" }),
 );
+app.get("/api/ready", async (_, res) => {
+  await checkStorage();
+  res.json({ status: "ok", database: "reachable" });
+});
 app.get("/api/products", async (_, res) => res.json((await readStore()).products));
 app.post("/api/events", rateLimit({ windowMs: 60000, limit: 60 }), async (req, res) => {
   await recordEvent(eventSchema.parse(req.body));
@@ -158,6 +163,10 @@ app.put("/api/admin/banners", auth, admin, async (req, res) => {
   res.json(banners);
 });
 app.use((err, req, res, next) => {
+  if (err instanceof StoreUnavailableError) {
+    res.set("Retry-After", "30");
+    return res.status(503).json({ error: err.message });
+  }
   res.status(400).json({
     error:
       err instanceof z.ZodError

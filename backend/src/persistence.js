@@ -9,14 +9,28 @@ const db = durable ? createClient(process.env.SUPABASE_URL, process.env.SUPABASE
   auth: { persistSession: false, autoRefreshToken: false },
 }) : null;
 
+export class StoreUnavailableError extends Error {
+  constructor() {
+    super("Store temporarily unavailable. Please try again shortly.");
+    this.status = 503;
+  }
+}
+
+export async function checkStorage() {
+  if (!durable) return;
+  const { error } = await db.from("commerce_state").select("id").limit(1)
+    .abortSignal(AbortSignal.timeout(8000));
+  if (error) throw new StoreUnavailableError();
+}
+
 export async function snapshot(id, seed) {
   const { data, error } = await db.from("commerce_state").select("data,revision").eq("id", id).maybeSingle();
-  if (error) throw Error("Persistent store unavailable. Check Supabase migration and server credentials.");
+  if (error) throw new StoreUnavailableError();
   if (data) return data;
   const { error: insertError } = await db.from("commerce_state").insert({ id, data: seed, revision: 0 });
-  if (insertError && insertError.code !== "23505") throw Error("Unable to initialize persistent store.");
+  if (insertError && insertError.code !== "23505") throw new StoreUnavailableError();
   const { data: initial, error: readError } = await db.from("commerce_state").select("data,revision").eq("id", id).single();
-  if (readError) throw Error("Unable to read persistent store.");
+  if (readError) throw new StoreUnavailableError();
   return initial;
 }
 
@@ -29,7 +43,7 @@ export async function changeSnapshot(id, seed, fn) {
     const { data, error } = await db.from("commerce_state")
       .update({ data: draft, revision: current.revision + 1 })
       .eq("id", id).eq("revision", current.revision).select("revision").maybeSingle();
-    if (error) throw Error("Unable to save persistent store.");
+    if (error) throw new StoreUnavailableError();
     if (data) return { data: draft, result };
   }
   throw Error("Store is busy. Please retry.");
